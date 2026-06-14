@@ -108,4 +108,5 @@ InitTestScene*.unity*
 
 
 /# User-specific files
-./VR_OuterConductor.slnx
+.VR_OuterConductor.slnx
+*.slnx
