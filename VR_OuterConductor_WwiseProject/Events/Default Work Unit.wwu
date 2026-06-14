@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Piano_Note" ID="{DEB0899E-CE41-4F1F-B857-743CB7075D74}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3DF533F3-25C9-4743-A96B-0224ACCB8D7D}" ShortID="197869353">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Piano_Body" ID="{83629182-2CA5-48DF-9C6C-2A96C6359058}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Release_Piano_Note" ID="{3ED7C74E-8594-412B-BF8D-57E19944C895}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9E27440B-0B5A-4405-8024-C356A6B01B96}" ShortID="759271018">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Piano_Release" ID="{B63E3368-35CD-487F-B6C8-46715B89E0F1}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Piano_Note" ID="{61C2498C-4984-485C-AA87-818856BDAC49}">
+					<ChildrenList>
+						<Action Name="" ID="{0BCA3EAD-1EB2-435E-BB1E-8EAD3012BB56}" ShortID="188458032">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Piano_Body" ID="{83629182-2CA5-48DF-9C6C-2A96C6359058}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

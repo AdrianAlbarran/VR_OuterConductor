@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b7c2f3b9a5c968e4e8bd1d6a2935e518
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114139
+  packageName: Grand Piano
+  packageVersion: 2.0
+  assetPath: Assets/Piano/Prefabs/PianoChairC.prefab
+  uploadId: 814814

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="KeyPressure" ID="{6B2A8AB1-1D3B-4647-BB4F-4056CC3FD820}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -22,6 +22,28 @@ MonoBehaviour:
   targetOpenXRApiVersion: 
   required: 0
   customRuntimeLoaderName: 
+--- !u!114 &-7527446520634127469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61726edca15cc5c4d8faab9a8a3b58c0, type: 3}
+  m_Name: AkWwiseOpenXRMotionFeature Standalone
+  m_EditorClassIdentifier: AK.Wwise.Unity.OpenXR::AK.Wwise.Unity.OpenXR.AkWwiseOpenXRMotionFeature
+  m_enabled: 0
+  nameUi: Wwise OpenXR Motion
+  version: 1.0.0
+  featureIdInternal: com.audiokinetic.wwise.openxr.motion
+  openxrExtensionStrings: XR_FB_haptic_pcm
+  company: Audiokinetic
+  priority: 0
+  targetOpenXRApiVersion: 
+  required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-7511914638670828327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,6 +508,28 @@ MonoBehaviour:
   targetOpenXRApiVersion: 
   required: 0
   customRuntimeLoaderName: 
+--- !u!114 &1123938452320526203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61726edca15cc5c4d8faab9a8a3b58c0, type: 3}
+  m_Name: AkWwiseOpenXRMotionFeature Android
+  m_EditorClassIdentifier: AK.Wwise.Unity.OpenXR::AK.Wwise.Unity.OpenXR.AkWwiseOpenXRMotionFeature
+  m_enabled: 0
+  nameUi: Wwise OpenXR Motion
+  version: 1.0.0
+  featureIdInternal: com.audiokinetic.wwise.openxr.motion
+  openxrExtensionStrings: XR_FB_haptic_pcm
+  company: Audiokinetic
+  priority: 0
+  targetOpenXRApiVersion: 
+  required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &1124368962758900064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,6 +561,7 @@ MonoBehaviour:
   - {fileID: -2448291199709667117}
   - {fileID: 1148673291415463586}
   - {fileID: 4958946905582987626}
+  - {fileID: -7527446520634127469}
   - {fileID: 4457368701705462467}
   customLoaderName: 
   m_renderMode: 1
@@ -865,10 +910,11 @@ MonoBehaviour:
   - {fileID: -7990530189226411009}
   - {fileID: 7396081055750757367}
   - {fileID: -4613602812611756594}
+  - {fileID: 1123938452320526203}
   - {fileID: -4017318484049360136}
   customLoaderName: 
   m_renderMode: 1
-  m_latencyOptimization: 0
+  m_latencyOptimization: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
@@ -915,7 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
   m_Name: MetaQuestTouchProControllerProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchProControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro

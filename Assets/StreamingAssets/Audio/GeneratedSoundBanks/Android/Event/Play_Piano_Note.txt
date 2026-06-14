@@ -1,0 +1,43 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2007906036	Play_Piano_Note			\Default Work Unit\Play_Piano_Note	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1256091261	PianoVelocity			\Default Work Unit\PianoVelocity	
+	1546809480	PianoNote			\Default Work Unit\PianoNote	
+
+Switch	ID	Name	Switch Group			Notes
+	1534528626	v9	PianoVelocity			
+	1534528634	v1	PianoVelocity			
+	1534528638	v5	PianoVelocity			
+	1986569277	v13	PianoVelocity			
+	613761696	Ds6	PianoNote			
+	613761697	Ds7	PianoNote			
+	613761698	Ds4	PianoNote			
+	613761699	Ds5	PianoNote			
+	613761700	Ds2	PianoNote			
+	613761701	Ds3	PianoNote			
+	613761703	Ds1	PianoNote			
+	881806249	Fs1	PianoNote			
+	881806250	Fs2	PianoNote			
+	881806251	Fs3	PianoNote			
+	881806252	Fs4	PianoNote			
+	881806253	Fs5	PianoNote			
+	881806254	Fs6	PianoNote			
+	881806255	Fs7	PianoNote			
+	1853303296	C4	PianoNote			
+	1853303297	C5	PianoNote			
+	1853303298	C6	PianoNote			
+	1853303299	C7	PianoNote			
+	1853303301	C1	PianoNote			
+	1853303302	C2	PianoNote			
+	1853303303	C3	PianoNote			
+	1853303308	C8	PianoNote			
+	1886858600	A2	PianoNote			
+	1886858601	A3	PianoNote			
+	1886858602	A0	PianoNote			
+	1886858603	A1	PianoNote			
+	1886858604	A6	PianoNote			
+	1886858605	A7	PianoNote			
+	1886858606	A4	PianoNote			
+	1886858607	A5	PianoNote			
+

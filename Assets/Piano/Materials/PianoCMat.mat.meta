@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5b81443edc74a8f4b877247ed86a27aa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114139
+  packageName: Grand Piano
+  packageVersion: 2.0
+  assetPath: Assets/Piano/Materials/PianoCMat.mat
+  uploadId: 814814
