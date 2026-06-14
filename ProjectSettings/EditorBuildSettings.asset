@@ -13,11 +13,6 @@ EditorBuildSettings:
     guid: fe1eef3bb51388c4ca8857f38943ff3f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-<<<<<<< HEAD
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b6a3d0ef7dcf5cf46819fa533c985e67, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: faa53f6c05d7b5343ac8a8a2e4fffbe6, type: 2}
-=======
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 49cb08c1ed3977145b0cbe41bff5dfb1, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2934c072ab4355041ab28217953a9cc1, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 426ed73a47143d44dab02e5d1bbc1526, type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 4826711457b3b524893b33b63b1f7be9, type: 2}
->>>>>>> main
