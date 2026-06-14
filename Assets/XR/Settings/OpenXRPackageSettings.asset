@@ -1,8 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
---- !u!114 &-8639682407297598273
-=======
 --- !u!114 &-7990530189226411009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,7 +603,6 @@ MonoBehaviour:
   cacheSize: 1048576
   perThreadCacheSize: 51200
 --- !u!114 &1314102039109298016
->>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1117,9 +1113,6 @@ MonoBehaviour:
   customRuntimeLoaderName: 
   targetQuest: 1
   targetQuest2: 1
-<<<<<<< HEAD
---- !u!114 &648928319172948733
-=======
 --- !u!114 &7201209781623383798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1235,7 +1228,6 @@ MonoBehaviour:
   required: 0
   customRuntimeLoaderName: 
 --- !u!114 &7953770109330984234
->>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

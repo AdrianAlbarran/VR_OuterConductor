@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DBB94A4C-E8BB-4607-8B38-644FD1557517}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{DBB94A4C-E8BB-4607-8B38-644FD1557517}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Piano" ID="{AA998650-9587-42BD-A36E-8400D67A0B53}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Release_Piano_Note" ID="{3ED7C74E-8594-412B-BF8D-57E19944C895}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Piano_Note" ID="{61C2498C-4984-485C-AA87-818856BDAC49}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Piano_Note" ID="{DEB0899E-CE41-4F1F-B857-743CB7075D74}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
