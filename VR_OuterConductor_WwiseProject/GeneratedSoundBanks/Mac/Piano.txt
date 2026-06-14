@@ -1,0 +1,257 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1069606734	Stop_Piano_Note			\Default Work Unit\Stop_Piano_Note	
+	2007906036	Play_Piano_Note			\Default Work Unit\Play_Piano_Note	
+	2023544253	Release_Piano_Note			\Default Work Unit\Release_Piano_Note	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1256091261	PianoVelocity			\Default Work Unit\PianoVelocity	
+	1546809480	PianoNote			\Default Work Unit\PianoNote	
+
+Switch	ID	Name	Switch Group			Notes
+	1534528626	v9	PianoVelocity			
+	1534528634	v1	PianoVelocity			
+	1534528638	v5	PianoVelocity			
+	1986569277	v13	PianoVelocity			
+	613761696	Ds6	PianoNote			
+	613761697	Ds7	PianoNote			
+	613761698	Ds4	PianoNote			
+	613761699	Ds5	PianoNote			
+	613761700	Ds2	PianoNote			
+	613761701	Ds3	PianoNote			
+	613761703	Ds1	PianoNote			
+	748129776	Cs5	PianoNote			
+	748129777	Cs4	PianoNote			
+	748129778	Cs7	PianoNote			
+	748129779	Cs6	PianoNote			
+	748129780	Cs1	PianoNote			
+	748129782	Cs3	PianoNote			
+	748129783	Cs2	PianoNote			
+	881659184	Gs1	PianoNote			
+	881659186	Gs3	PianoNote			
+	881659187	Gs2	PianoNote			
+	881659188	Gs5	PianoNote			
+	881659189	Gs4	PianoNote			
+	881659190	Gs7	PianoNote			
+	881659191	Gs6	PianoNote			
+	881806249	Fs1	PianoNote			
+	881806250	Fs2	PianoNote			
+	881806251	Fs3	PianoNote			
+	881806252	Fs4	PianoNote			
+	881806253	Fs5	PianoNote			
+	881806254	Fs6	PianoNote			
+	881806255	Fs7	PianoNote			
+	882644920	As3	PianoNote			
+	882644921	As2	PianoNote			
+	882644922	As1	PianoNote			
+	882644923	As0	PianoNote			
+	882644924	As7	PianoNote			
+	882644925	As6	PianoNote			
+	882644926	As5	PianoNote			
+	882644927	As4	PianoNote			
+	1786192857	G1	PianoNote			
+	1786192858	G2	PianoNote			
+	1786192859	G3	PianoNote			
+	1786192860	G4	PianoNote			
+	1786192861	G5	PianoNote			
+	1786192862	G6	PianoNote			
+	1786192863	G7	PianoNote			
+	1802970440	F3	PianoNote			
+	1802970441	F2	PianoNote			
+	1802970442	F1	PianoNote			
+	1802970444	F7	PianoNote			
+	1802970445	F6	PianoNote			
+	1802970446	F5	PianoNote			
+	1802970447	F4	PianoNote			
+	1819748152	E6	PianoNote			
+	1819748153	E7	PianoNote			
+	1819748154	E4	PianoNote			
+	1819748155	E5	PianoNote			
+	1819748156	E2	PianoNote			
+	1819748157	E3	PianoNote			
+	1819748159	E1	PianoNote			
+	1836525712	D1	PianoNote			
+	1836525714	D3	PianoNote			
+	1836525715	D2	PianoNote			
+	1836525716	D5	PianoNote			
+	1836525717	D4	PianoNote			
+	1836525718	D7	PianoNote			
+	1836525719	D6	PianoNote			
+	1853303296	C4	PianoNote			
+	1853303297	C5	PianoNote			
+	1853303298	C6	PianoNote			
+	1853303299	C7	PianoNote			
+	1853303301	C1	PianoNote			
+	1853303302	C2	PianoNote			
+	1853303303	C3	PianoNote			
+	1853303308	C8	PianoNote			
+	1870081008	B7	PianoNote			
+	1870081009	B6	PianoNote			
+	1870081010	B5	PianoNote			
+	1870081011	B4	PianoNote			
+	1870081012	B3	PianoNote			
+	1870081013	B2	PianoNote			
+	1870081014	B1	PianoNote			
+	1870081015	B0	PianoNote			
+	1886858600	A2	PianoNote			
+	1886858601	A3	PianoNote			
+	1886858602	A0	PianoNote			
+	1886858603	A1	PianoNote			
+	1886858604	A6	PianoNote			
+	1886858605	A7	PianoNote			
+	1886858606	A4	PianoNote			
+	1886858607	A5	PianoNote			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	700021219	KeyPressure			\Default Work Unit\KeyPressure	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9662	Ds2_v1	.cache\56\{56421F68-0BDB-F7F0-F689-2978CBAAC17B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds2\Ds2_v1		254321
+	4993167	Rel_C1	.cache\4A\{4ADD736D-D40D-E5E8-A86F-56161308B30E}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C1		8088
+	14496994	Rel_Ds2	.cache\EF\{EFEAECBE-C587-3742-5A10-ADAC7336DD15}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Ds2		7769
+	18174584	A3_v1	.cache\25\{25EDC035-F826-7CD9-BD25-C9B684C9F147}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A3\A3_v1		176058
+	38962799	C5_v9	.cache\77\{7798BF86-2886-BF0A-2176-0A142C61B52D}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C5\C5_v9		213162
+	52510097	Rel_Fs2	.cache\1E\{1E2E0107-D3C7-1A33-EAE7-64D4690EF969}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs2		7694
+	58524133	Rel_C4	.cache\09\{09D236FD-7B68-8DCF-DE4F-4E4923F580A0}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C4		8003
+	66233290	C6_v5	.cache\F8\{F894D5DA-61AE-4C39-85FC-8419B77390B0}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C6\C6_v5		80064
+	67586244	Fs5_v5	.cache\7D\{7D2BE177-FAC8-0909-7D36-082A5B1B3549}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs5\Fs5_v5		157639
+	67777975	Fs3_v5	.cache\F1\{F11A7B61-558B-1678-576C-CF1A8E75DAE8}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs3\Fs3_v5		216043
+	69041665	C1_v1	.cache\35\{3529B0F6-4A69-B185-6BF3-0D8ECD96D730}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C1\C1_v1		316403
+	72051000	Ds4_v5	.cache\93\{93588E32-188F-92A4-EF1A-6A83543BD235}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds4\Ds4_v5		199349
+	82145835	Ds1_v1	.cache\F2\{F2E71344-EBB4-2F1C-FB36-C5F9C209D523}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds1\Ds1_v1		253764
+	83680495	C8_v13	.cache\A6\{A68D66E6-5E31-32B6-AC43-8857347E92A3}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C8\C8_v13		55050
+	89429690	Fs5_v13	.cache\0D\{0D357D90-48D8-06C8-9F45-883DA5A9A4D2}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs5\Fs5_v13		152583
+	127115767	Ds3_v9	.cache\A1\{A196E8AF-898C-4E94-618A-9B69F5D8E50D}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds3\Ds3_v9		213685
+	152542136	Fs3_v9	.cache\B7\{B75D9375-8119-1A3C-3B4B-BE18B4194283}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs3\Fs3_v9		218627
+	154306722	Ds2_v9	.cache\48\{48F94885-59D7-7393-69DE-F9D4D9715C4F}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds2\Ds2_v9		299793
+	163484540	A3_v9	.cache\B5\{B5F909C5-48D1-6583-895B-9B122CFBD11F}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A3\A3_v9		211531
+	164360925	Ds5_v5	.cache\17\{1763C305-4C3D-C3F5-0C1D-1E2AA3901865}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds5\Ds5_v5		167174
+	165428246	Ds2_v13	.cache\C5\{C54854C8-7CBC-DF8A-0000-6159F8CF0691}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds2\Ds2_v13		298393
+	173781756	Rel_Fs5	.cache\67\{678CAEBF-0F93-FD09-F2CA-E3AA3F20F543}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs5		8019
+	179540150	C2_v5	.cache\99\{997045B2-066A-262E-A068-CAB0C6631052}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C2\C2_v5		304621
+	182205564	Rel_Ds5	.cache\79\{793E4EF1-2483-C8AC-4948-7B665ABB1191}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Ds5		8071
+	188922901	A1_v1	.cache\34\{34DCFB89-632A-8D53-8A76-E3E03E3D4EB9}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A1\A1_v1		273920
+	190376158	Fs3_v1	.cache\41\{41C121A4-35E6-F0CB-8ECB-3B680E860CA4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs3\Fs3_v1		209206
+	200347408	A5_v5	.cache\75\{751FBEC8-8A34-7F32-BD6C-E37317D246E0}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A5\A5_v5		115785
+	209683141	A3_v5	.cache\6A\{6AC6005A-96E5-B50A-407C-5F15B4D35A08}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A3\A3_v5		206454
+	213884283	A3_v13	.cache\7E\{7EEAA8E4-206E-E086-3936-69D9C4F851B6}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A3\A3_v13		208451
+	220741046	Rel_C5	.cache\E0\{E0B54D8C-26F3-1073-80C8-D690BF89A5A2}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C5		7986
+	221765402	C2_v1	.cache\10\{1068680D-101C-AB14-0583-88554044F58B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C2\C2_v1		252608
+	222600258	A0_v9	.cache\58\{58E783E5-A2AF-930E-E527-9995D55C72EB}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A0\A0_v9		325511
+	222683907	Fs4_v5	.cache\E4\{E4410723-3FDB-4781-02D5-89A46085D0A1}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs4\Fs4_v5		190580
+	223139661	C4_v5	.cache\2A\{2ABAAB1C-7F34-1F2B-C3BF-B1D30904EDD0}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C4\C4_v5		209340
+	234807760	C7_v9	.cache\5B\{5BDB6898-E6EF-C50B-4010-3A0B2FB3CE1B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C7\C7_v9		55620
+	244748016	Rel_Fs3	.cache\65\{65BBDBBB-D019-024A-9692-CB1D25AC0342}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs3		7760
+	262184485	C2_v9	.cache\9F\{9F73658B-E5A9-3D27-4B7D-38729857C84A}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C2\C2_v9		306636
+	274684136	C1_v9	.cache\BE\{BEB01BA3-A3C2-0FE2-3220-EC6AF9FD8551}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C1\C1_v9		304548
+	278659823	Fs7_v5	.cache\96\{966F37E4-1336-1D44-5F3C-0E2DD94334C1}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs7\Fs7_v5		63091
+	279379845	Ds4_v1	.cache\29\{29D78D96-A873-F685-559D-C080270E16CF}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds4\Ds4_v1		179150
+	287293214	C5_v1	.cache\2D\{2D10B8D4-D3EC-A696-B37B-4B893350B910}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C5\C5_v1		180140
+	303204630	Ds1_v13	.cache\2F\{2F24AA22-6F41-8ECA-A521-F5FDA7A17F87}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds1\Ds1_v13		315436
+	311387681	Fs7_v13	.cache\4E\{4EE8FED2-07CD-13F9-FBF2-C959C692A611}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs7\Fs7_v13		64960
+	316824570	Fs6_v1	.cache\C6\{C6D1FEE2-8B7B-16B6-08C3-A35112C05901}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs6\Fs6_v1		59497
+	318236475	Rel_C3	.cache\EC\{ECA78123-FF79-D021-4A44-F40E675BC188}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C3		7159
+	320496068	A7_v9	.cache\80\{80B457E6-FC9B-157C-D1B3-47476CFC1179}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A7\A7_v9		49722
+	322131384	C1_v5	.cache\8B\{8BD9AB42-AC4A-84AE-C02D-6FABCFD60DFA}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C1\C1_v5		310124
+	339191256	A2_v5	.cache\81\{81AF00A3-AA60-7784-CF9D-26B4DA997924}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A2\A2_v5		215942
+	343951494	Fs7_v1	.cache\48\{48FA4045-9438-C58B-5B8E-5D17E2DE38A3}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs7\Fs7_v1		66941
+	355715510	C4_v1	.cache\EA\{EA19A9D4-95FD-16B0-70DD-8E336A4C7802}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C4\C4_v1		160640
+	356280509	Ds1_v5	.cache\42\{42A91CBD-F5F5-5F3A-0EA6-075F8BA85EA5}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds1\Ds1_v5		322853
+	365348807	Ds4_v13	.cache\CB\{CB96148D-4A4E-91D6-ACB8-12E62C9ED93B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds4\Ds4_v13		212130
+	368641433	Ds5_v13	.cache\54\{54755010-0088-21ED-2793-137212FD40DD}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds5\Ds5_v13		169408
+	370574876	A1_v13	.cache\E6\{E66BC51B-BE8A-9F30-FC34-961AAFC6E8AC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A1\A1_v13		315057
+	371121363	A2_v9	.cache\21\{2194F795-201E-57F3-0F15-07B2C1C2DE25}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A2\A2_v9		217758
+	373101265	Ds3_v5	.cache\3C\{3C2F93ED-0158-C3FB-E49F-E96FDA2B49A8}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds3\Ds3_v5		217405
+	377346558	Fs5_v9	.cache\54\{54A3844F-67F5-87A5-BBBE-36D72DE5C54A}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs5\Fs5_v9		159025
+	391048494	A2_v13	.cache\5B\{5B0DD41B-EFD5-D311-3D64-D0BD66DBCC72}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A2\A2_v13		217780
+	394962923	C7_v1	.cache\A0\{A0F49E29-B997-0B36-05D7-40C378C3121D}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C7\C7_v1		56360
+	395364607	A7_v1	.cache\20\{209D2C36-FE7C-199A-3392-51DA7DBC9CEB}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A7\A7_v1		35845
+	395794478	Fs6_v9	.cache\4F\{4FB744D0-E0C4-E91D-DA8B-C88C1084F03E}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs6\Fs6_v9		80353
+	399285454	Rel_A4	.cache\0E\{0ED0F767-826E-517F-43B7-70CEA42C6B17}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A4		7922
+	399534550	A1_v5	.cache\28\{28571FE0-12C8-32DB-A3FA-90DC9A0EFA70}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A1\A1_v5		284488
+	406416613	C8_v1	.cache\31\{313233A0-B172-E6E7-5E75-46EB169B0250}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C8\C8_v1		42788
+	414081752	Fs6_v5	.cache\71\{71121294-8A9F-1782-FA6D-92BC12428F68}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs6\Fs6_v5		77195
+	416922469	Ds7_v1	.cache\A4\{A4F6110C-E5D2-1246-AC28-E0D462B4495A}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds7\Ds7_v1		68845
+	441585372	C7_v5	.cache\D9\{D9B4FCA6-497D-6B54-BDED-E90B2B3BCC4E}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C7\C7_v5		56549
+	450230119	Rel_Ds3	.cache\C2\{C216C866-2382-9D2F-5B51-43F023C2335B}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Ds3		7055
+	455809194	Fs5_v1	.cache\27\{2702CEC5-AAB6-EDDD-4CF8-7EF7A33A5AF7}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs5\Fs5_v1		148055
+	457727256	Fs4_v13	.cache\6B\{6BFC46C5-1431-BF30-6D20-0EEF01C515A3}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs4\Fs4_v13		189934
+	462552963	Fs7_v9	.cache\19\{198387C7-2F86-15D1-589D-2D60495CDF7D}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs7\Fs7_v9		62018
+	462749543	A5_v1	.cache\AE\{AEFEEFE1-EAB5-F7E7-DB63-ED622A6445BB}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A5\A5_v1		94605
+	486419984	A4_v5	.cache\39\{390ACBB3-BEC6-8353-ED17-7140735EA699}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A4\A4_v5		183720
+	519662047	Ds7_v13	.cache\38\{383BA251-5D41-DF5D-778F-9D0C3AE989B4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds7\Ds7_v13		63974
+	522242173	Fs2_v1	.cache\09\{0949BE91-E9ED-49F5-5032-977BC419FBB6}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs2\Fs2_v1		233746
+	524243770	Rel_Ds1	.cache\89\{890251E5-94A5-D977-36F1-A946F8A58200}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Ds1		8450
+	571214789	C3_v9	.cache\5E\{5E0658FD-D2A0-84B5-0715-19D0EEDAD94E}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C3\C3_v9		216621
+	575806604	A4_v13	.cache\27\{2783EE08-5EA0-8A83-9D32-78D6BCB2C751}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A4\A4_v13		189206
+	577424817	A6_v1	.cache\C6\{C631B9C1-5225-3256-C7A7-4FB9CB2C1A9E}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A6\A6_v1		73604
+	580732646	Ds6_v9	.cache\5D\{5D506DE8-BBC7-76D1-1301-C73084E5EF52}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds6\Ds6_v9		90747
+	583393492	Fs2_v5	.cache\18\{18E9FE9A-1618-9A10-9E50-BCB31186494B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs2\Fs2_v5		280095
+	613960003	C8_v9	.cache\2F\{2FD7E8D6-3BBD-EA61-5802-F2EC9FEDB340}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C8\C8_v9		53292
+	617627569	A5_v9	.cache\A4\{A44BAF31-250B-AC53-CE7C-F881D010FAFE}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A5\A5_v9		141769
+	620532217	C6_v13	.cache\49\{49199A3A-EA3A-CD43-4CF8-680F1BA6AB60}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C6\C6_v13		83543
+	628437672	Rel_A1	.cache\80\{800B8D9B-CCE6-94C0-3F72-03DBB4987391}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A1		7530
+	628688349	C3_v13	.cache\85\{8529B857-C529-698F-8B72-5345F6BEC552}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C3\C3_v13		218686
+	631230781	C1_v13	.cache\EC\{ECDE0A3D-1E30-FAC1-31F2-06876C52DDCC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C1\C1_v13		301355
+	635837506	Ds7_v9	.cache\86\{869B91DC-92E4-61E6-26C6-60302573911B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds7\Ds7_v9		64575
+	636644957	Fs1_v1	.cache\17\{172E9B5D-5576-43DA-1CF1-63FDC6E22189}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs1\Fs1_v1		224627
+	645599806	Fs2_v13	.cache\2B\{2B388C88-0162-A5C6-6B31-E67C2CD125DD}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs2\Fs2_v13		278402
+	672748167	Ds2_v5	.cache\06\{0679D13B-32E4-385A-D3B7-8F99BBC7A8B4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds2\Ds2_v5		302899
+	683211101	C3_v5	.cache\13\{136B1D84-88AF-FB64-D669-348A28F2384C}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C3\C3_v5		217492
+	687272819	Ds7_v5	.cache\BF\{BF08BC3B-57BD-0760-F46C-B1B1175374EB}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds7\Ds7_v5		64939
+	704483726	Rel_C6	.cache\A8\{A80E2E58-A494-1A8E-495C-6894C8F14F1E}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C6		7053
+	708602414	A6_v5	.cache\65\{652AFFB4-F8A8-587B-DF8E-70865F7B92B0}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A6\A6_v5		91722
+	723899767	Ds1_v9	.cache\28\{2878E32E-383E-0C2C-8BFD-78779ABB4493}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds1\Ds1_v9		319968
+	740538582	Fs1_v9	.cache\10\{10BF015A-92F4-B36B-7797-4B64AFA6E670}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs1\Fs1_v9		295116
+	742035200	A6_v9	.cache\5C\{5C07F1E7-4172-22F1-9B31-52C886C75BD2}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A6\A6_v9		90635
+	743781521	C6_v1	.cache\1A\{1A427E46-6FDD-3900-D572-B4ECF83F5BCB}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C6\C6_v1		71586
+	752684738	C4_v13	.cache\C4\{C4D398F7-A458-2F2D-6929-703C0DA4EF9E}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C4\C4_v13		212216
+	764514761	Rel_A2	.cache\92\{92378D2E-CA3B-DD3A-17DB-487D90E28B10}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A2		7842
+	776595467	Rel_Ds6	.cache\84\{84AA0BAC-8128-3B8C-7418-7ABA51B87E60}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Ds6		7996
+	780608459	A5_v13	.cache\3E\{3E251FF4-C3C8-20BB-B8A1-7EF8436B308B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A5\A5_v13		137244
+	791943398	Rel_Ds4	.cache\82\{822253C9-4C3F-9087-6CD3-E6C8A3FC1037}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Ds4		7685
+	793756892	Rel_Fs6	.cache\80\{80478E01-00F2-6E16-3F76-391DEB81DC6A}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs6		7494
+	801679278	Rel_A6	.cache\1D\{1D8A339A-1CF9-7070-EBEF-4C1178E072D4}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A6		7853
+	802268441	C4_v9	.cache\73\{73E6C129-A94D-685C-7D52-A5087E1388D3}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C4\C4_v9		211728
+	808867219	Ds4_v9	.cache\5E\{5E58C54B-E499-A37E-BE77-6AD22FF231BC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds4\Ds4_v9		202726
+	810516540	C8_v5	.cache\89\{89B6A245-B931-CEE6-DFAA-CF9586161EE4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C8\C8_v5		38968
+	822080620	C5_v5	.cache\D1\{D1BF72A9-DE02-46CA-3776-F9350D432860}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C5\C5_v5		214487
+	839506534	A4_v1	.cache\67\{67893E8E-E3C5-734C-E2D1-87E7EDD162C2}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A4\A4_v1		178259
+	846264343	A4_v9	.cache\24\{2460CB2E-719F-9F34-CDF4-665F38F9F74A}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A4\A4_v9		184659
+	860014337	Fs2_v9	.cache\92\{92F5FB13-DE73-32CC-B95F-E5375CDCDCB7}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs2\Fs2_v9		276233
+	860524017	C7_v13	.cache\31\{31732113-9F7D-0E6A-E36C-2B2FF91E824A}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C7\C7_v13		62078
+	868460483	Rel_C2	.cache\E2\{E26E05E9-6764-CF4C-CC6D-87CBAAD0A758}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C2		7141
+	888708446	Ds6_v1	.cache\2C\{2CAE151F-302E-137D-3BBB-383361F116E8}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds6\Ds6_v1		94905
+	892814835	Ds6_v13	.cache\A3\{A3A25223-A208-1D78-DF86-103D0CC12244}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds6\Ds6_v13		92926
+	895179429	Fs1_v5	.cache\33\{33D8D1F6-5CF4-F1C1-B77D-E26840881CF7}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs1\Fs1_v5		298460
+	903763378	Ds6_v5	.cache\2E\{2EF4C641-D2AF-4C67-FC73-ECF91575B407}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds6\Ds6_v5		93240
+	914428187	Fs4_v9	.cache\DF\{DF763298-C837-F660-A3DE-D390440D1C78}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs4\Fs4_v9		196331
+	914489443	A7_v13	.cache\07\{07214346-54AB-8006-24AB-32AC7E59F7FA}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A7\A7_v13		51959
+	921717694	Fs4_v1	.cache\2D\{2DC04B97-9601-9EBB-7FE9-E6EAE6C18608}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs4\Fs4_v1		165482
+	923762452	Rel_Fs4	.cache\FA\{FA7CFF56-917B-F4FE-FED4-2C1B813079F7}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs4		8133
+	923929375	Rel_A7	.cache\24\{24FF3BCC-FEC0-F83E-96EB-D6AAAD529774}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A7		7800
+	926090944	C3_v1	.cache\43\{43733969-F47E-03C9-ACFB-FB681BF41624}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C3\C3_v1		212615
+	934080758	A7_v5	.cache\BE\{BE259161-2F23-E651-D823-AEF3B832C1CC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A7\A7_v5		51399
+	950846106	A1_v9	.cache\D6\{D6B66CC5-21BB-F3F8-4155-F02BB3FEFFFF}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A1\A1_v9		311734
+	972514740	Ds5_v9	.cache\A5\{A5638B7A-985A-E2C0-1F9E-FF336F48E5B8}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds5\Ds5_v9		174013
+	975224471	Rel_A3	.cache\60\{6080D43D-45F9-9F2D-9BF2-BF82A4480592}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A3		7531
+	978248487	Rel_C7	.cache\0B\{0B7A3DE0-AB58-7AE4-BBBE-F2376F4D484B}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C7		7379
+	982635019	Fs6_v13	.cache\77\{77228EE2-4101-7DAE-BAD5-ECE7701A3DD4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs6\Fs6_v13		78759
+	990730087	Ds3_v13	.cache\81\{818704AF-45AE-CB47-BEC4-26BDFD078DB2}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds3\Ds3_v13		212672
+	994288463	A0_v5	.cache\6A\{6A8F59EF-A4C1-63AE-7AC7-91EA97E3DA00}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A0\A0_v5		322345
+	1001195652	Ds5_v1	.cache\85\{85ED519D-959B-7307-8822-8207D485CAED}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds5\Ds5_v1		165469
+	1001866326	C2_v13	.cache\2C\{2CD6E06B-1CCC-CF23-B53B-636A40848909}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C2\C2_v13		307381
+	1001956023	A6_v13	.cache\EA\{EA18D4C2-1885-3325-6F59-013871E664B9}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A6\A6_v13		89303
+	1006003708	Rel_A5	.cache\87\{87F99145-60FB-BD7B-C616-E29D2DA96D4D}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A5		8146
+	1016437073	A2_v1	.cache\F6\{F64661CD-A28E-B690-3506-5A8089CD2503}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A2\A2_v1		217564
+	1024250943	Ds3_v1	.cache\57\{57CDB01F-6DAA-0A4E-CC6D-4D3AB548E5FC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds3\Ds3_v1		174417
+	1025210933	A0_v13	.cache\CE\{CED32CF5-1099-EC26-F2E9-CD7B3C126981}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A0\A0_v13		327432
+	1036549643	C5_v13	.cache\71\{718AF410-6B14-AB1E-5105-3C2FAE1CC8CC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C5\C5_v13		203279
+	1039446306	C6_v9	.cache\D2\{D29E976B-3E69-764B-409D-F277A32DF8FF}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C6\C6_v9		83931
+	1044980942	Rel_Fs1	.cache\6A\{6AC8F0A2-5CD1-2405-2F07-B79EC8E6E2C8}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs1		7941
+	1062277176	Fs1_v13	.cache\29\{2963AAC5-AD4E-D41C-A112-522CB74F6350}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs1\Fs1_v13		290268
+	1068525849	Fs3_v13	.cache\17\{175EE56B-21A9-CF87-CB3A-5FE98ABC19C4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs3\Fs3_v13		216758
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	512515023	A0_v1	.cache\D1\{D1E273DC-D013-DFE4-7D7E-021417016589}.wem	512515023.wem	\Containers\Default Work Unit\Piano\Piano_Body\Piano_A0\A0_v1	
+	993658540	Rel_A0	.cache\71\{71DB9E1E-21E7-D648-A061-BC4AEC868A47}.wem	993658540.wem	\Containers\Default Work Unit\Piano\Piano_Release\Rel_A0	
+

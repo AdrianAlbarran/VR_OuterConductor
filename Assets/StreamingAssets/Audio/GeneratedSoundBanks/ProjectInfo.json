@@ -1,0 +1,43 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "VR_OuterConductor_WwiseProject",
+   "GUID": "{022A8A93-B2A2-4888-9942-1B9492F50847}",
+   "Generator": "2025.1.8.9170"
+  },
+  "CacheRoot": "../../../../VR_OuterConductor_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Android",
+    "GUID": "{4F649D6B-FD28-4AD6-9D85-9A46A127A5F5}",
+    "BasePlatform": "Android",
+    "BasePlatformGUID": "{A2D401DE-B8B6-4FEB-8142-137C34D507CA}",
+    "Path": "../../../../VR_OuterConductor_WwiseProject/GeneratedSoundBanks/Android"
+   },
+   {
+    "Name": "Mac",
+    "GUID": "{02D8A304-32C7-45A0-B2E3-7D2EBE1B4EBE}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../VR_OuterConductor_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{0BD27454-281E-4DC2-9A33-9F2629ED70C4}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../VR_OuterConductor_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{A8D56CAD-B07A-4936-88B5-E15C8ADFD639}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{CB354712-2344-E567-C345-FAA69656706C}"
+ }
+}
