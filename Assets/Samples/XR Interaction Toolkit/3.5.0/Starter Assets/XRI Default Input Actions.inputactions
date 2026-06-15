@@ -2094,7 +2094,7 @@
                     "name": "Activate",
                     "type": "Button",
                     "id": "41976d89-60de-4deb-bff9-16b4af96b290",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -3896,6 +3896,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "RightHand_TrackBaton",
+                    "type": "Button",
+                    "id": "e00a029b-f399-45ae-8053-b51a16fbe439",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -3907,6 +3916,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "MyAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb0c92d3-87cb-44c3-94f0-57fb7303b121",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHand_TrackBaton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

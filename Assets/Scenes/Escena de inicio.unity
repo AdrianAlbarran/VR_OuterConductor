@@ -3084,6 +3084,26 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!1 &2113957107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9075661075955528200, guid: 42f2e6bb3ee57e442ac93edbfb709d85, type: 3}
+  m_PrefabInstance: {fileID: 3312792269625993786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2113957114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113957107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb7ca056310a5447a01c73c7a27149f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BatonGestureTracker
+  m_bufferSize: 10
+  m_VelocityThreshold: 3
+  m_recordMovement: {fileID: 3286766115002982809, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &3312792269625993786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3163,7 +3183,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9075661075955528200, guid: 42f2e6bb3ee57e442ac93edbfb709d85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2113957114}
   m_SourcePrefab: {fileID: 100100000, guid: 42f2e6bb3ee57e442ac93edbfb709d85, type: 3}
 --- !u!4 &3312792269625993787 stripped
 Transform:
