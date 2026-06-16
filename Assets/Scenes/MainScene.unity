@@ -185,6 +185,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4289990611794670812, guid: 9828f5c7857152746ae4613d360ddbbf, type: 3}
   m_PrefabInstance: {fileID: 8040398}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8040400 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8678519029840881797, guid: 9828f5c7857152746ae4613d360ddbbf, type: 3}
+  m_PrefabInstance: {fileID: 8040398}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d46479d7039ea4e935e04764c24ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Instrument
 --- !u!1001 &9926966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2405,6 +2416,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 283198110}
     m_Modifications:
+    - target: {fileID: 4067765074475599889, guid: 218fa93539c36304988bf9683f544891, type: 3}
+      propertyPath: m_instrument
+      value: 
+      objectReference: {fileID: 1316798945}
     - target: {fileID: 4479553072423407992, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.9000006
@@ -3215,9 +3230,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1414438749}
-  - {fileID: 1316798944}
   - {fileID: 1283793767}
+  - {fileID: 1316798944}
+  - {fileID: 1414438749}
   - {fileID: 8040399}
   - {fileID: 353494836}
   - {fileID: 1214295054}
@@ -3590,6 +3605,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1450957043727786588, guid: fae8c28c3a9632b4d8759cd281a6cabb, type: 3}
   m_PrefabInstance: {fileID: 353494835}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &353494837 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6418529913312375691, guid: fae8c28c3a9632b4d8759cd281a6cabb, type: 3}
+  m_PrefabInstance: {fileID: 353494835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d46479d7039ea4e935e04764c24ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Instrument
 --- !u!1 &383361718
 GameObject:
   m_ObjectHideFlags: 0
@@ -7617,6 +7643,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 283198110}
     m_Modifications:
+    - target: {fileID: 4067765074475599889, guid: 218fa93539c36304988bf9683f544891, type: 3}
+      propertyPath: m_instrument
+      value: 
+      objectReference: {fileID: 1414438750}
     - target: {fileID: 4479553072423407992, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.9000006
@@ -12473,6 +12503,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 283198110}
     m_Modifications:
+    - target: {fileID: 4067765074475599889, guid: 218fa93539c36304988bf9683f544891, type: 3}
+      propertyPath: m_instrument
+      value: 
+      objectReference: {fileID: 353494837}
     - target: {fileID: 4479553072423407992, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.9000006
@@ -12579,6 +12613,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 283198110}
     m_Modifications:
+    - target: {fileID: 4067765074475599889, guid: 218fa93539c36304988bf9683f544891, type: 3}
+      propertyPath: m_instrument
+      value: 
+      objectReference: {fileID: 8040400}
     - target: {fileID: 4479553072423407992, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.9000006
@@ -12824,6 +12862,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
+--- !u!114 &1283793769 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8479854202089376866, guid: ffe5c2333c97ae349a1af98148cf8633, type: 3}
+  m_PrefabInstance: {fileID: 1283793766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d46479d7039ea4e935e04764c24ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Instrument
 --- !u!1001 &1302096371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12995,6 +13044,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3860301231490604485, guid: 11b3e6eb64436a447bd3cb8e39958d12, type: 3}
   m_PrefabInstance: {fileID: 1316798943}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1316798945 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4980262154726818932, guid: 11b3e6eb64436a447bd3cb8e39958d12, type: 3}
+  m_PrefabInstance: {fileID: 1316798943}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d46479d7039ea4e935e04764c24ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Instrument
 --- !u!1001 &1356934920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13708,6 +13768,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6510144746796564977, guid: bc1a691885a2e644ea41a2078ccc20e8, type: 3}
   m_PrefabInstance: {fileID: 1414438748}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1414438750 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7277437660636223653, guid: bc1a691885a2e644ea41a2078ccc20e8, type: 3}
+  m_PrefabInstance: {fileID: 1414438748}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d46479d7039ea4e935e04764c24ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Instrument
 --- !u!114 &1414438751 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8862315953736025449, guid: bc1a691885a2e644ea41a2078ccc20e8, type: 3}
@@ -20147,6 +20218,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 283198110}
     m_Modifications:
+    - target: {fileID: 4067765074475599889, guid: 218fa93539c36304988bf9683f544891, type: 3}
+      propertyPath: m_instrument
+      value: 
+      objectReference: {fileID: 1283793769}
     - target: {fileID: 4479553072423407992, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.9000006
@@ -20207,6 +20282,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 7007386345204238395, guid: 218fa93539c36304988bf9683f544891, type: 3}
+      propertyPath: m_xDisplacement
+      value: 0.074
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007386345204238395, guid: 218fa93539c36304988bf9683f544891, type: 3}
+      propertyPath: m_Displacement.x
+      value: 0.074
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007386345204238395, guid: 218fa93539c36304988bf9683f544891, type: 3}
+      propertyPath: m_pressedAnimationDuration
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7675252312996897644, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_Name
       value: Expositor_Banjo
@@ -20243,8 +20330,10 @@ PrefabInstance:
       propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 167799290406495785, guid: 218fa93539c36304988bf9683f544891, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 378223620987932700, guid: 218fa93539c36304988bf9683f544891, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 218fa93539c36304988bf9683f544891, type: 3}
