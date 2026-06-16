@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1678202582778743612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4828741361360187421}
+  m_Layer: 0
+  m_Name: 'AttachPoint '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4828741361360187421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678202582778743612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2395983406661016645}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1836504199344518362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,7 +1046,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.16, z: -0.553}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4828741361360187421}
   m_Father: {fileID: 3679549254129417085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &16795802042674898
@@ -1103,3 +1135,20 @@ MonoBehaviour:
   musicianHands:
   - {fileID: 2478887797788836314}
   - {fileID: 4004750639002340332}
+  attachPoint: {fileID: 4828741361360187421}
+  instrumentOffsets:
+  - instrumentType: 1
+    positionOffset: {x: 0.096, y: -0.457, z: 0.68}
+    rotationOffset: {x: -90, y: 0, z: 180}
+  - instrumentType: 2
+    positionOffset: {x: 0, y: -14.5, z: 0}
+    rotationOffset: {x: 0, y: -90, z: 0}
+  - instrumentType: 3
+    positionOffset: {x: -11.3, y: 11.4, z: 19}
+    rotationOffset: {x: 0, y: 0, z: 90}
+  - instrumentType: 4
+    positionOffset: {x: 0, y: 0.086, z: 0.076}
+    rotationOffset: {x: 90, y: 0, z: 0}
+  - instrumentType: 6
+    positionOffset: {x: -8.3, y: 44.9, z: 30.6}
+    rotationOffset: {x: -90, y: 0, z: 90}
