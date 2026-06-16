@@ -9,22 +9,23 @@ public class MusicianInstrument : MonoBehaviour
     void Start()
     {
         if (instrument != InstrumentEnum.None)
-            InstrumentManager.Instance.AssignInstrument(instrument);
+            InstrumentManager.Instance?.AssignInstrument(instrument, gameObject);
     }
 
     public void SetInstrument(InstrumentEnum newInstrument)
     {
         if (instrument != InstrumentEnum.None)
-            InstrumentManager.Instance.RemoveInstrument(instrument);
+            InstrumentManager.Instance?.RemoveInstrument(instrument);
 
         instrument = newInstrument;
 
         if (instrument != InstrumentEnum.None)
-            InstrumentManager.Instance.AssignInstrument(instrument);
+            InstrumentManager.Instance?.AssignInstrument(instrument, gameObject);
     }
 
     void OnDestroy()
     {
+        if (!Application.isPlaying) return;
         if (instrument != InstrumentEnum.None)
             InstrumentManager.Instance?.RemoveInstrument(instrument);
     }

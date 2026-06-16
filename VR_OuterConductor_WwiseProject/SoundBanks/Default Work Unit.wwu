@@ -8,11 +8,23 @@
 						<ObjectRef Name="Play_Button_Hover" ID="{1CB369A0-48A3-4015-9025-C50C3D303C57}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Button_Select" ID="{DAC49DB8-11C1-40D9-B68F-FDCE92C68C21}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Release_Piano_Note" ID="{3ED7C74E-8594-412B-BF8D-57E19944C895}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Song" ID="{D8A978EB-4E16-466E-8295-0D5495F4B9C0}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Harmonica" ID="{48448513-916E-4328-8CE9-B09A03138C61}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Drums" ID="{6D0EC632-D032-4347-859C-0A41D21F6CE9}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Flute" ID="{BF638C98-5AE2-4400-B701-7273678B31E4}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Piano_Stem" ID="{A94B8C03-3F92-445C-879F-4AB3875E4E76}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Whistle" ID="{96571220-6F8F-4493-962B-BB8369C10714}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Whistle" ID="{C888D0DB-4509-44D7-8542-AD2B3D57C902}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Banjo" ID="{C394E8B8-66A3-4547-9639-09E1C0B9BE1E}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Piano_Stem" ID="{FACCF023-0D04-4631-A321-D39B2E9590CC}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Harmonica" ID="{7E8F9DAB-82A4-46A8-8036-72331BAFF291}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Walk" ID="{0813C3C5-6FAB-47A8-B338-E7E2E3DAA978}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Button_Click" ID="{C3C397B5-4FBD-4829-BBC6-F1E6FB05C19B}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Piano_Note" ID="{61C2498C-4984-485C-AA87-818856BDAC49}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Instruments" ID="{983B0B76-CA73-4A50-8A2B-A57DABA937F5}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Banjo" ID="{1E4831E6-4BB6-4B50-AB2E-F06099EDDC98}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Flute" ID="{ED38330D-7B9B-4CEA-B942-591E955EB3A9}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Piano_Note" ID="{DEB0899E-CE41-4F1F-B857-743CB7075D74}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Drums" ID="{03CDF88A-C4FF-4FAC-8C3D-11F1B9526B14}" WorkUnitID="{9E85F282-5D1B-42E4-9BB1-1BDA3B925E31}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

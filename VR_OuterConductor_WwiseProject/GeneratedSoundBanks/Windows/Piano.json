@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AA998650-9587-42BD-A36E-8400D67A0B53}",
     "Language": "SFX",
-    "Hash": "{1DBE2E4A-F352-8D19-0809-8738166A1C40}",
+    "Hash": "{B247435D-64E8-D067-E649-2AFD3F6C0073}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Piano",
     "ShortName": "Piano",
     "Path": "Piano.bnk",
@@ -1306,6 +1306,19 @@
     ],
     "Events": [
      {
+      "Id": "483679740",
+      "Name": "Play_Banjo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Play_Banjo",
+      "GUID": "{1E4831E6-4BB6-4B50-AB2E-F06099EDDC98}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "194511471"
+       }
+      ]
+     },
+     {
       "Id": "1149159311",
       "Name": "Play_Button_Click",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Button_Click",
@@ -1348,10 +1361,50 @@
       ]
      },
      {
+      "Id": "4062567473",
+      "Name": "Play_Drums",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Play_Drums",
+      "GUID": "{6D0EC632-D032-4347-859C-0A41D21F6CE9}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "146415964"
+       }
+      ]
+     },
+     {
+      "Id": "1653871456",
+      "Name": "Play_Flute",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Play_Flute",
+      "GUID": "{ED38330D-7B9B-4CEA-B942-591E955EB3A9}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "137896665"
+       }
+      ]
+     },
+     {
+      "Id": "2330128884",
+      "Name": "Play_Harmonica",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Play_Harmonica",
+      "GUID": "{7E8F9DAB-82A4-46A8-8036-72331BAFF291}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "435469169"
+       }
+      ]
+     },
+     {
       "Id": "2007906036",
       "Name": "Play_Piano_Note",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Piano_Note",
       "GUID": "{DEB0899E-CE41-4F1F-B857-743CB7075D74}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "25.778105",
@@ -3219,29 +3272,15 @@
       ]
      },
      {
-      "Id": "251043389",
-      "Name": "Play_Song",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Song",
-      "GUID": "{D8A978EB-4E16-466E-8295-0D5495F4B9C0}",
+      "Id": "2014024651",
+      "Name": "Play_Piano_Stem",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Play_Piano_Stem",
+      "GUID": "{A94B8C03-3F92-445C-879F-4AB3875E4E76}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "137896665"
-       },
-       {
-        "Id": "146415964"
-       },
-       {
-        "Id": "194511471"
-       },
-       {
-        "Id": "435469169"
-       },
-       {
         "Id": "735162644"
-       },
-       {
-        "Id": "1047475539"
        }
       ]
      },
@@ -3250,6 +3289,7 @@
       "Name": "Play_Walk",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Walk",
       "GUID": "{0813C3C5-6FAB-47A8-B338-E7E2E3DAA978}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.36458808",
       "DurationMax": "0.76633716",
@@ -3269,10 +3309,24 @@
       ]
      },
      {
+      "Id": "2693257580",
+      "Name": "Play_Whistle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Play_Whistle",
+      "GUID": "{96571220-6F8F-4493-962B-BB8369C10714}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1047475539"
+       }
+      ]
+     },
+     {
       "Id": "2023544253",
       "Name": "Release_Piano_Note",
       "ObjectPath": "\\Events\\Default Work Unit\\Release_Piano_Note",
       "GUID": "{3ED7C74E-8594-412B-BF8D-57E19944C895}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.40058333",
       "DurationMax": "0.45627084",
@@ -3631,10 +3685,70 @@
       ]
      },
      {
+      "Id": "4057679078",
+      "Name": "Stop_Banjo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Stop_Banjo",
+      "GUID": "{C394E8B8-66A3-4547-9639-09E1C0B9BE1E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "361575035",
+      "Name": "Stop_Drums",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Stop_Drums",
+      "GUID": "{03CDF88A-C4FF-4FAC-8C3D-11F1B9526B14}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3719562918",
+      "Name": "Stop_Flute",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Stop_Flute",
+      "GUID": "{BF638C98-5AE2-4400-B701-7273678B31E4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3521806326",
+      "Name": "Stop_Harmonica",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Stop_Harmonica",
+      "GUID": "{48448513-916E-4328-8CE9-B09A03138C61}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1069606734",
       "Name": "Stop_Piano_Note",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Piano_Note",
       "GUID": "{61C2498C-4984-485C-AA87-818856BDAC49}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2218610953",
+      "Name": "Stop_Piano_Stem",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Stop_Piano_Stem",
+      "GUID": "{FACCF023-0D04-4631-A321-D39B2E9590CC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2529669854",
+      "Name": "Stop_Whistle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Instruments\\Stop_Whistle",
+      "GUID": "{C888D0DB-4509-44D7-8542-AD2B3D57C902}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -3647,48 +3761,6 @@
       "Name": "KeyPressure",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\KeyPressure",
       "GUID": "{6B2A8AB1-1D3B-4647-BB4F-4056CC3FD820}"
-     },
-     {
-      "Id": "1130429031",
-      "Name": "FluteVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\FluteVolume",
-      "GUID": "{C08A7792-80B7-47A5-922D-BF12C46C83F3}"
-     },
-     {
-      "Id": "1821095354",
-      "Name": "PianoVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\PianoVolume",
-      "GUID": "{018A788B-024E-4BAE-8F68-A28C3D4A8836}"
-     },
-     {
-      "Id": "2038381523",
-      "Name": "BanjoVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\BanjoVolume",
-      "GUID": "{C52E9C3C-7493-4BB6-AC68-0D899A224D01}"
-     },
-     {
-      "Id": "2301001150",
-      "Name": "DrumsVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\DrumsVolume",
-      "GUID": "{B3545183-38CC-486D-90A4-4D37ADC022DD}"
-     },
-     {
-      "Id": "2381809963",
-      "Name": "WhistleVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\WhistleVolume",
-      "GUID": "{9E85CCD6-60A6-44AF-BF2B-1574D80A02ED}"
-     },
-     {
-      "Id": "2918011349",
-      "Name": "MasterVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
-      "GUID": "{8D6632EC-B4EB-4E97-BA5B-A67E186436C4}"
-     },
-     {
-      "Id": "3297833431",
-      "Name": "HarmonicaVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\HarmonicaVolume",
-      "GUID": "{E2CD7604-D65E-4FFF-ABB5-2D4F066F09B9}"
      }
     ],
     "SwitchGroups": [
@@ -4263,6 +4335,6 @@
     ]
    }
   ],
-  "FileHash": "{FF4260A0-4B74-BB64-A43C-3160E9F93888}"
+  "FileHash": "{5B586DB0-2F7B-DDDE-E00B-10A0DFC39BFB}"
  }
 }

@@ -2,39 +2,53 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum InstrumentEnum { None, Banjo, Drums, Flute, Harmonica, Piano, Whistle }
-
 public class InstrumentManager : MonoBehaviour
 {
     public static InstrumentManager Instance { get; private set; }
 
-    private readonly Dictionary<InstrumentEnum, string> rtpcNames = new()
+    private bool isQuitting = false;
+
+    void OnApplicationQuit() => isQuitting = true;
+
+    private readonly Dictionary<InstrumentEnum, string> playEvents = new()
     {
-        { InstrumentEnum.Banjo,     "BanjoVolume"     },
-        { InstrumentEnum.Drums,     "DrumsVolume"     },
-        { InstrumentEnum.Flute,     "FluteVolume"     },
-        { InstrumentEnum.Harmonica, "HarmonicaVolume" },
-        { InstrumentEnum.Piano,     "PianoVolume"     },
-        { InstrumentEnum.Whistle,   "WhistleVolume"   },
+        { InstrumentEnum.Banjo,     "Play_Banjo"      },
+        { InstrumentEnum.Drums,     "Play_Drums"      },
+        { InstrumentEnum.Flute,     "Play_Flute"      },
+        { InstrumentEnum.Harmonica, "Play_Harmonica"  },
+        { InstrumentEnum.Piano,     "Play_Piano_Stem" },
+        { InstrumentEnum.Whistle,   "Play_Whistle"    },
     };
+
+    private readonly Dictionary<InstrumentEnum, string> stopEvents = new()
+    {
+        { InstrumentEnum.Banjo,     "Stop_Banjo"      },
+        { InstrumentEnum.Drums,     "Stop_Drums"      },
+        { InstrumentEnum.Flute,     "Stop_Flute"      },
+        { InstrumentEnum.Harmonica, "Stop_Harmonica"  },
+        { InstrumentEnum.Piano,     "Stop_Piano_Stem" },
+        { InstrumentEnum.Whistle,   "Stop_Whistle"    },
+    };
+
+    private readonly Dictionary<InstrumentEnum, GameObject> activeSources = new();
 
     void Awake() => Instance = this;
 
-    void Start()
+    public void AssignInstrument(InstrumentEnum instrument, GameObject source)
     {
-        AkUnitySoundEngine.PostEvent("Play_Song", gameObject);
-        foreach (var kvp in rtpcNames)
-            AkUnitySoundEngine.SetRTPCValue(kvp.Value, 0f, null);
-    }
-
-    public void AssignInstrument(InstrumentEnum instrument)
-    {
-        if (instrument == InstrumentEnum.None || !rtpcNames.ContainsKey(instrument)) return;
-        AkUnitySoundEngine.SetRTPCValue(rtpcNames[instrument], 100f, null);
+        if (instrument == InstrumentEnum.None || !playEvents.ContainsKey(instrument)) return;
+        if (activeSources.ContainsKey(instrument))
+            AkUnitySoundEngine.PostEvent(stopEvents[instrument], activeSources[instrument]);
+        AkUnitySoundEngine.PostEvent(playEvents[instrument], source);
+        activeSources[instrument] = source;
     }
 
     public void RemoveInstrument(InstrumentEnum instrument)
     {
-        if (instrument == InstrumentEnum.None || !rtpcNames.ContainsKey(instrument)) return;
-        AkUnitySoundEngine.SetRTPCValue(rtpcNames[instrument], 0f, null);
+        if (isQuitting) return;
+        if (instrument == InstrumentEnum.None || !stopEvents.ContainsKey(instrument)) return;
+        if (activeSources.TryGetValue(instrument, out var source))
+            AkUnitySoundEngine.PostEvent(stopEvents[instrument], source);
+        activeSources.Remove(instrument);
     }
 }

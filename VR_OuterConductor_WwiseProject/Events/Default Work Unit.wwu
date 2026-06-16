@@ -83,17 +83,160 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Song" ID="{D8A978EB-4E16-466E-8295-0D5495F4B9C0}">
+				<Folder Name="Instruments" ID="{983B0B76-CA73-4A50-8A2B-A57DABA937F5}" ShortID="1060924515">
 					<ChildrenList>
-						<Action Name="" ID="{99980AAC-140F-4F40-8FA9-517DB1EFAB16}" ShortID="216523217">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SongBlend" ID="{C4A2F904-ECB3-47AA-A59E-C447BD75FC3D}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Banjo" ID="{1E4831E6-4BB6-4B50-AB2E-F06099EDDC98}">
+							<ChildrenList>
+								<Action Name="" ID="{51AFB88D-ADF4-45E0-826A-7576BC4D8B5D}" ShortID="707896288">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="banjo - còpia" ID="{8E3CD703-8FF5-43BB-B7A0-606A30770EB7}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Banjo" ID="{C394E8B8-66A3-4547-9639-09E1C0B9BE1E}">
+							<ChildrenList>
+								<Action Name="" ID="{D36BB4F7-1BF1-4E8C-AFFA-060504DA3813}" ShortID="91769835">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="banjo - còpia" ID="{8E3CD703-8FF5-43BB-B7A0-606A30770EB7}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Drums" ID="{6D0EC632-D032-4347-859C-0A41D21F6CE9}">
+							<ChildrenList>
+								<Action Name="" ID="{D2F44CC5-1C3C-4E82-AA90-C20B54A93BD0}" ShortID="144055781">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="drums - còpia" ID="{87766713-6F20-452C-B395-9D251015280A}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Drums" ID="{03CDF88A-C4FF-4FAC-8C3D-11F1B9526B14}">
+							<ChildrenList>
+								<Action Name="" ID="{FD3DECC9-A6C9-408A-8D79-DF15C0869653}" ShortID="454068649">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="drums - còpia" ID="{87766713-6F20-452C-B395-9D251015280A}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Flute" ID="{ED38330D-7B9B-4CEA-B942-591E955EB3A9}">
+							<ChildrenList>
+								<Action Name="" ID="{F6E00D17-970A-4F73-996B-0DEBD5A4D298}" ShortID="106464067">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="flute - còpia" ID="{DF77728E-99C2-4FB1-A3E5-C3E387395ACB}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Whistle" ID="{C888D0DB-4509-44D7-8542-AD2B3D57C902}">
+							<ChildrenList>
+								<Action Name="" ID="{C3D10262-C017-4E8A-A534-4D35793AF8E2}" ShortID="827322553">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="whistle - còpia" ID="{27A2DBA4-D889-41C7-97E0-93BBB8FD92D4}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Harmonica" ID="{7E8F9DAB-82A4-46A8-8036-72331BAFF291}">
+							<ChildrenList>
+								<Action Name="" ID="{34F91390-9781-43A5-94A9-0E2D7F46E7D1}" ShortID="273554092">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="harmonica - còpia" ID="{38F6CFCC-F4C5-4DE2-BC8F-0AAB1B1E485C}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Flute" ID="{BF638C98-5AE2-4400-B701-7273678B31E4}">
+							<ChildrenList>
+								<Action Name="" ID="{99DC07FA-DCEF-4D26-A3BF-1CB163FBEF57}" ShortID="96291504">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="flute - còpia" ID="{DF77728E-99C2-4FB1-A3E5-C3E387395ACB}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Piano_Stem" ID="{A94B8C03-3F92-445C-879F-4AB3875E4E76}">
+							<ChildrenList>
+								<Action Name="" ID="{DDFA3C55-B309-49FF-AE9A-AC0A0A7A07B9}" ShortID="960182274">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="piano - còpia" ID="{20D38E5D-BF95-4759-B1B7-BB5B12E57CA4}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Harmonica" ID="{48448513-916E-4328-8CE9-B09A03138C61}">
+							<ChildrenList>
+								<Action Name="" ID="{08D608AA-BB45-43B0-8578-A6CCEA84F860}" ShortID="387590222">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="harmonica - còpia" ID="{38F6CFCC-F4C5-4DE2-BC8F-0AAB1B1E485C}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Whistle" ID="{96571220-6F8F-4493-962B-BB8369C10714}">
+							<ChildrenList>
+								<Action Name="" ID="{62406776-53C3-4690-9CBA-EB14210DD319}" ShortID="372528432">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="whistle - còpia" ID="{27A2DBA4-D889-41C7-97E0-93BBB8FD92D4}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Piano_Stem" ID="{FACCF023-0D04-4631-A321-D39B2E9590CC}">
+							<ChildrenList>
+								<Action Name="" ID="{0152CB66-A1ED-4B39-8BCA-1515DC5A31AB}" ShortID="903482210">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="piano - còpia" ID="{20D38E5D-BF95-4759-B1B7-BB5B12E57CA4}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

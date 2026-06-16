@@ -13,14 +13,25 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BANJO = 483679740U;
         static const AkUniqueID PLAY_BUTTON_CLICK = 1149159311U;
         static const AkUniqueID PLAY_BUTTON_HOVER = 4021863785U;
         static const AkUniqueID PLAY_BUTTON_SELECT = 2034692297U;
+        static const AkUniqueID PLAY_DRUMS = 4062567473U;
+        static const AkUniqueID PLAY_FLUTE = 1653871456U;
+        static const AkUniqueID PLAY_HARMONICA = 2330128884U;
         static const AkUniqueID PLAY_PIANO_NOTE = 2007906036U;
-        static const AkUniqueID PLAY_SONG = 251043389U;
+        static const AkUniqueID PLAY_PIANO_STEM = 2014024651U;
         static const AkUniqueID PLAY_WALK = 1589278981U;
+        static const AkUniqueID PLAY_WHISTLE = 2693257580U;
         static const AkUniqueID RELEASE_PIANO_NOTE = 2023544253U;
+        static const AkUniqueID STOP_BANJO = 4057679078U;
+        static const AkUniqueID STOP_DRUMS = 361575035U;
+        static const AkUniqueID STOP_FLUTE = 3719562918U;
+        static const AkUniqueID STOP_HARMONICA = 3521806326U;
         static const AkUniqueID STOP_PIANO_NOTE = 1069606734U;
+        static const AkUniqueID STOP_PIANO_STEM = 2218610953U;
+        static const AkUniqueID STOP_WHISTLE = 2529669854U;
     } // namespace EVENTS
 
     namespace SWITCHES

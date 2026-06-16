@@ -1,12 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
-	251043389	Play_Song			\Default Work Unit\Play_Song	
+	361575035	Stop_Drums			\Default Work Unit\Instruments\Stop_Drums	
+	483679740	Play_Banjo			\Default Work Unit\Instruments\Play_Banjo	
 	1069606734	Stop_Piano_Note			\Default Work Unit\Stop_Piano_Note	
 	1149159311	Play_Button_Click			\Default Work Unit\Play_Button_Click	
 	1589278981	Play_Walk			\Default Work Unit\Play_Walk	
+	1653871456	Play_Flute			\Default Work Unit\Instruments\Play_Flute	
 	2007906036	Play_Piano_Note			\Default Work Unit\Play_Piano_Note	
+	2014024651	Play_Piano_Stem			\Default Work Unit\Instruments\Play_Piano_Stem	
 	2023544253	Release_Piano_Note			\Default Work Unit\Release_Piano_Note	
 	2034692297	Play_Button_Select			\Default Work Unit\Play_Button_Select	
+	2218610953	Stop_Piano_Stem			\Default Work Unit\Instruments\Stop_Piano_Stem	
+	2330128884	Play_Harmonica			\Default Work Unit\Instruments\Play_Harmonica	
+	2529669854	Stop_Whistle			\Default Work Unit\Instruments\Stop_Whistle	
+	2693257580	Play_Whistle			\Default Work Unit\Instruments\Play_Whistle	
+	3521806326	Stop_Harmonica			\Default Work Unit\Instruments\Stop_Harmonica	
+	3719562918	Stop_Flute			\Default Work Unit\Instruments\Stop_Flute	
 	4021863785	Play_Button_Hover			\Default Work Unit\Play_Button_Hover	
+	4057679078	Stop_Banjo			\Default Work Unit\Instruments\Stop_Banjo	
+	4062567473	Play_Drums			\Default Work Unit\Instruments\Play_Drums	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1256091261	PianoVelocity			\Default Work Unit\PianoVelocity	
@@ -108,13 +119,6 @@ Switch	ID	Name	Switch Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	700021219	KeyPressure			\Default Work Unit\KeyPressure	
-	1130429031	FluteVolume			\Default Work Unit\instruments\FluteVolume	
-	1821095354	PianoVolume			\Default Work Unit\instruments\PianoVolume	
-	2038381523	BanjoVolume			\Default Work Unit\instruments\BanjoVolume	
-	2301001150	DrumsVolume			\Default Work Unit\instruments\DrumsVolume	
-	2381809963	WhistleVolume			\Default Work Unit\instruments\WhistleVolume	
-	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
-	3297833431	HarmonicaVolume			\Default Work Unit\instruments\HarmonicaVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9662	Ds2_v1	.cache\56\{56421F68-0BDB-F7F0-F689-2978CBAAC17B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds2\Ds2_v1		254321
@@ -271,12 +275,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1068525849	Fs3_v13	.cache\17\{175EE56B-21A9-CF87-CB3A-5FE98ABC19C4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs3\Fs3_v13		216758
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	137896665	flute - còpia	.cache\50\{50ABF35B-0CDF-9547-0954-5A8F8FE8A859}.wem	137896665.wem	\Containers\Default Work Unit\Music\SongBlend\flute - còpia	
-	146415964	drums - còpia	.cache\08\{08A2C003-BF23-C2E5-4F8D-A3FB77B6C0FC}.wem	146415964.wem	\Containers\Default Work Unit\Music\SongBlend\drums - còpia	
-	194511471	banjo - còpia	.cache\85\{8503DFC6-EFA5-E7F3-A8B9-5BC2B23978D8}.wem	194511471.wem	\Containers\Default Work Unit\Music\SongBlend\banjo - còpia	
-	435469169	harmonica - còpia	.cache\28\{28E72081-D54E-DEEA-7661-7423B724CAF9}.wem	435469169.wem	\Containers\Default Work Unit\Music\SongBlend\harmonica - còpia	
+	137896665	flute - còpia	.cache\50\{50ABF35B-0CDF-9547-0954-5A8F8FE8A859}.wem	137896665.wem	\Containers\Default Work Unit\Music\flute - còpia	
+	146415964	drums - còpia	.cache\08\{08A2C003-BF23-C2E5-4F8D-A3FB77B6C0FC}.wem	146415964.wem	\Containers\Default Work Unit\Music\drums - còpia	
+	194511471	banjo - còpia	.cache\85\{8503DFC6-EFA5-E7F3-A8B9-5BC2B23978D8}.wem	194511471.wem	\Containers\Default Work Unit\Music\banjo - còpia	
+	435469169	harmonica - còpia	.cache\28\{28E72081-D54E-DEEA-7661-7423B724CAF9}.wem	435469169.wem	\Containers\Default Work Unit\Music\harmonica - còpia	
 	512515023	A0_v1	.cache\D1\{D1E273DC-D013-DFE4-7D7E-021417016589}.wem	512515023.wem	\Containers\Default Work Unit\Piano\Piano_Body\Piano_A0\A0_v1	
-	735162644	piano - còpia	.cache\A6\{A6A1C941-9CF0-0F62-51BB-3B00CD162A21}.wem	735162644.wem	\Containers\Default Work Unit\Music\SongBlend\piano - còpia	
+	735162644	piano - còpia	.cache\A6\{A6A1C941-9CF0-0F62-51BB-3B00CD162A21}.wem	735162644.wem	\Containers\Default Work Unit\Music\piano - còpia	
 	993658540	Rel_A0	.cache\71\{71DB9E1E-21E7-D648-A061-BC4AEC868A47}.wem	993658540.wem	\Containers\Default Work Unit\Piano\Piano_Release\Rel_A0	
-	1047475539	whistle - còpia	.cache\68\{681FB622-FAAC-FF6B-2179-06DAA6603A18}.wem	1047475539.wem	\Containers\Default Work Unit\Music\SongBlend\whistle - còpia	
+	1047475539	whistle - còpia	.cache\68\{681FB622-FAAC-FF6B-2179-06DAA6603A18}.wem	1047475539.wem	\Containers\Default Work Unit\Music\whistle - còpia	
 

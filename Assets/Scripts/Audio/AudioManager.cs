@@ -77,14 +77,14 @@ public class SoundManager : MonoBehaviour
         AkUnitySoundEngine.PostEvent("Release_Piano_Note", source);
     }
 
-    private void OnDestroy()
-    {
-        UnloadSoundBanks();
-    }
+    private bool isQuitting = false;
 
-    private void OnApplicationQuit()
+    void OnApplicationQuit() => isQuitting = true;
+
+    void OnDestroy()
     {
-        UnloadSoundBanks();
+        if (isQuitting) return;
+        AkUnitySoundEngine.UnloadBank("Piano", IntPtr.Zero, null, null);
     }
 
 
