@@ -5209,6 +5209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InstrumentSocket
   musicianInstrument: {fileID: 1610701096}
   musicianHands: []
+  attachPoint: {fileID: 0}
+  instrumentOffsets: []
 --- !u!1 &206050110
 GameObject:
   m_ObjectHideFlags: 0
@@ -10732,6 +10734,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InstrumentSocket
   musicianInstrument: {fileID: 2102181622}
   musicianHands: []
+  attachPoint: {fileID: 0}
+  instrumentOffsets: []
 --- !u!1 &381125779
 GameObject:
   m_ObjectHideFlags: 0
@@ -16542,6 +16546,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InstrumentSocket
   musicianInstrument: {fileID: 1717262088}
   musicianHands: []
+  attachPoint: {fileID: 0}
+  instrumentOffsets: []
 --- !u!1 &921957279
 GameObject:
   m_ObjectHideFlags: 0
@@ -16654,6 +16660,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921957279}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &928609472 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2916596920585389110, guid: 11b3e6eb64436a447bd3cb8e39958d12, type: 3}
+  m_PrefabInstance: {fileID: 7348493291899033134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1090827186
 GameObject:
   m_ObjectHideFlags: 0
@@ -16911,6 +16922,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InstrumentSocket
   musicianInstrument: {fileID: 1929870922}
   musicianHands: []
+  attachPoint: {fileID: 0}
+  instrumentOffsets: []
 --- !u!1001 &1193732965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17213,6 +17226,11 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5167925059111895691, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 232453495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1425594642 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7866455425338120006, guid: 9828f5c7857152746ae4613d360ddbbf, type: 3}
+  m_PrefabInstance: {fileID: 3619423838670615865}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1443243094
 PrefabInstance:
@@ -17571,6 +17589,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1610701095}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1469756280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4771284538427728130, guid: fae8c28c3a9632b4d8759cd281a6cabb, type: 3}
+  m_PrefabInstance: {fileID: 7420414252149233973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1480398109
 GameObject:
   m_ObjectHideFlags: 0
@@ -17688,6 +17711,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InstrumentSocket
   musicianInstrument: {fileID: 2121854505}
   musicianHands: []
+  attachPoint: {fileID: 0}
+  instrumentOffsets: []
 --- !u!850595691 &1512450297
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -18508,6 +18533,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717262086}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1771499279 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1996835833697001110, guid: ffe5c2333c97ae349a1af98148cf8633, type: 3}
+  m_PrefabInstance: {fileID: 6755798750160970927}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1797959569
 GameObject:
   m_ObjectHideFlags: 0
@@ -24302,6 +24332,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121854503}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2130323582 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 384343572828405876, guid: bc1a691885a2e644ea41a2078ccc20e8, type: 3}
+  m_PrefabInstance: {fileID: 8134841132678868567}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &215504194907989856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24756,8 +24791,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8678519029840881797, guid: 9828f5c7857152746ae4613d360ddbbf, type: 3}
+      propertyPath: meshRoot
+      value: 
+      objectReference: {fileID: 1425594642}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4119518648092448559, guid: 9828f5c7857152746ae4613d360ddbbf, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4289990611794670812, guid: 9828f5c7857152746ae4613d360ddbbf, type: 3}
       insertIndex: -1
@@ -24832,6 +24872,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 195652696830982087, guid: ffe5c2333c97ae349a1af98148cf8633, type: 3}
+      propertyPath: m_AttachTransform
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 722327599989991781, guid: ffe5c2333c97ae349a1af98148cf8633, type: 3}
       propertyPath: m_Name
       value: eastman_ebj-wl_banjo
@@ -24876,8 +24920,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8479854202089376866, guid: ffe5c2333c97ae349a1af98148cf8633, type: 3}
+      propertyPath: meshRoot
+      value: 
+      objectReference: {fileID: 1771499279}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8585202467608328181, guid: ffe5c2333c97ae349a1af98148cf8633, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1129839171271566126, guid: ffe5c2333c97ae349a1af98148cf8633, type: 3}
       insertIndex: 1
@@ -24939,8 +24988,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4980262154726818932, guid: 11b3e6eb64436a447bd3cb8e39958d12, type: 3}
+      propertyPath: meshRoot
+      value: 
+      objectReference: {fileID: 928609472}
+    - target: {fileID: 8392650953848461199, guid: 11b3e6eb64436a447bd3cb8e39958d12, type: 3}
+      propertyPath: m_AttachTransform
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4757223912853510633, guid: 11b3e6eb64436a447bd3cb8e39958d12, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3860301231490604485, guid: 11b3e6eb64436a447bd3cb8e39958d12, type: 3}
       insertIndex: -1
@@ -25002,8 +25060,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6418529913312375691, guid: fae8c28c3a9632b4d8759cd281a6cabb, type: 3}
+      propertyPath: meshRoot
+      value: 
+      objectReference: {fileID: 1469756280}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5005799761829894724, guid: fae8c28c3a9632b4d8759cd281a6cabb, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1450957043727786588, guid: fae8c28c3a9632b4d8759cd281a6cabb, type: 3}
       insertIndex: 1
@@ -25065,8 +25128,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: basic_flute
       objectReference: {fileID: 0}
+    - target: {fileID: 7277437660636223653, guid: bc1a691885a2e644ea41a2078ccc20e8, type: 3}
+      propertyPath: meshRoot
+      value: 
+      objectReference: {fileID: 2130323582}
+    - target: {fileID: 8862315953736025449, guid: bc1a691885a2e644ea41a2078ccc20e8, type: 3}
+      propertyPath: m_AttachTransform
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 933414219363974172, guid: bc1a691885a2e644ea41a2078ccc20e8, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6510144746796564977, guid: bc1a691885a2e644ea41a2078ccc20e8, type: 3}
       insertIndex: -1

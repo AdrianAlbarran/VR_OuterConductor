@@ -5,6 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 public class Instrument : MonoBehaviour
 {
     [SerializeField] public InstrumentEnum instrumentType = InstrumentEnum.None;
+    [SerializeField] public Transform meshRoot;
 
     [Header("Hold Offset")]
     [SerializeField] public Vector3 holdPositionOffset = Vector3.zero;

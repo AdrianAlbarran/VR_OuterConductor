@@ -2,10 +2,20 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
+[System.Serializable]
+public struct InstrumentOffset
+{
+    public InstrumentEnum instrumentType;
+    public Vector3 positionOffset;
+    public Vector3 rotationOffset;
+}
+
 public class InstrumentSocket : MonoBehaviour
 {
     [SerializeField] private MusicianInstrument musicianInstrument;
     [SerializeField] private GameObject[] musicianHands;
+    [SerializeField] private Transform attachPoint;
+    [SerializeField] private InstrumentOffset[] instrumentOffsets;
 
     private XRSocketInteractor socket;
     private Instrument currentInstrument;
@@ -41,24 +51,35 @@ public class InstrumentSocket : MonoBehaviour
     {
         currentInstrument = args.interactableObject.transform.GetComponent<Instrument>();
         if (currentInstrument == null) return;
-        if (InstrumentManager.Instance.IsPlaying)
-            StartCoroutine(DelayedTrembler(currentInstrument));
+
+        ApplyOffset(currentInstrument.instrumentType, currentInstrument);
+        StartCoroutine(DelayedSetup(currentInstrument));
+
         musicianInstrument.SetInstrument(currentInstrument.instrumentType);
         SetMusicianHands(false);
         SetInstrumentHands(currentInstrument.transform, true);
+    }
 
+    private System.Collections.IEnumerator DelayedSetup(Instrument instrument)
+    {
+        yield return null;
+        ApplyOffset(instrument.instrumentType, instrument);
         if (InstrumentManager.Instance.IsPlaying)
-            currentInstrument.GetComponent<InstrumentParticles>()?.StartPlaying();
+        {
+            instrument.GetComponent<InstrumentTrembler>()?.StartTrembling();
+            instrument.GetComponent<InstrumentParticles>()?.StartPlaying();
+        }
     }
 
     private void OnRemoved(SelectExitEventArgs args)
     {
         if (currentInstrument == null) return;
         currentInstrument.GetComponent<InstrumentTrembler>()?.StopTrembling();
+        currentInstrument.GetComponent<InstrumentParticles>()?.StopPlaying();
         musicianInstrument.SetInstrument(InstrumentEnum.None);
         SetMusicianHands(true);
         SetInstrumentHands(currentInstrument.transform, false);
-        currentInstrument.GetComponent<InstrumentParticles>()?.StopPlaying();
+        ResetOffset();
         currentInstrument = null;
     }
 
@@ -78,6 +99,31 @@ public class InstrumentSocket : MonoBehaviour
             currentInstrument.GetComponent<InstrumentTrembler>()?.StopTrembling();
             currentInstrument.GetComponent<InstrumentParticles>()?.StopPlaying();
         }
+    }
+
+    private void ApplyOffset(InstrumentEnum type, Instrument instrument)
+    {
+        var meshChild = instrument.meshRoot;
+        if (meshChild == null) return;
+
+        foreach (var offset in instrumentOffsets)
+        {
+            if (offset.instrumentType == type)
+            {
+                meshChild.localPosition = offset.positionOffset;
+                meshChild.localRotation = Quaternion.Euler(offset.rotationOffset);
+                return;
+            }
+        }
+        meshChild.localPosition = Vector3.zero;
+        meshChild.localRotation = Quaternion.identity;
+    }
+
+    private void ResetOffset()
+    {
+        if (attachPoint == null) return;
+        attachPoint.localPosition = Vector3.zero;
+        attachPoint.localRotation = Quaternion.identity;
     }
 
     private void SetMusicianHands(bool active)
@@ -104,6 +150,8 @@ public class InstrumentSocket : MonoBehaviour
     private System.Collections.IEnumerator DelayedTrembler(Instrument instrument)
     {
         yield return null;
+        ApplyOffset(instrument.instrumentType, instrument);
         instrument.GetComponent<InstrumentTrembler>()?.StartTrembling();
+
     }
 }
