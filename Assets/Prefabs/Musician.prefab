@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 7660596702606128456}
   - component: {fileID: 8814590980708621861}
   - component: {fileID: 64672826832421238}
+  - component: {fileID: 4322037590972605355}
   m_Layer: 0
   m_Name: Musician
   m_TagString: Untagged
@@ -740,6 +741,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicianInstrument
   instrument: 0
+--- !u!114 &4322037590972605355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7769134924370616809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2eda60c74c01746851d62fd99af071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EyeTracker
+  eyes:
+  - {fileID: 9126123947068568547}
+  - {fileID: 4623996428556898415}
+  target: {fileID: 0}
+  speed: 5
 --- !u!1 &8460570616558875079
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,3 +1100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstrumentSocket
   musicianInstrument: {fileID: 64672826832421238}
+  musicianHands:
+  - {fileID: 2478887797788836314}
+  - {fileID: 4004750639002340332}
