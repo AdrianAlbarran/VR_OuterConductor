@@ -9904,6 +9904,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8558275205749575104, guid: ed2b4e2abaacb9543a84827fe3dca5de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bd5af9585847de46a889cf111d28f67, type: 2}
     - target: {fileID: -6689036041284674117, guid: ed2b4e2abaacb9543a84827fe3dca5de, type: 3}
       propertyPath: m_Name
       value: eastman_ebj-wl_banjo
