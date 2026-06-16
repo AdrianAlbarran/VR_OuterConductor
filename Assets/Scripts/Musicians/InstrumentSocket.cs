@@ -8,6 +8,7 @@ public class InstrumentSocket : MonoBehaviour
     [SerializeField] private GameObject[] musicianHands;
 
     private XRSocketInteractor socket;
+    private Instrument currentInstrument;
 
     void Awake()
     {
@@ -16,30 +17,67 @@ public class InstrumentSocket : MonoBehaviour
         socket.selectExited.AddListener(OnRemoved);
     }
 
+    void Start()
+    {
+        if (InstrumentManager.Instance != null)
+        {
+            InstrumentManager.Instance.OnPerformanceStarted += OnPerformanceStarted;
+            InstrumentManager.Instance.OnPerformanceStopped += OnPerformanceStopped;
+        }
+    }
+
     void OnDestroy()
     {
         socket.selectEntered.RemoveListener(OnPlaced);
         socket.selectExited.RemoveListener(OnRemoved);
+        if (InstrumentManager.Instance != null)
+        {
+            InstrumentManager.Instance.OnPerformanceStarted -= OnPerformanceStarted;
+            InstrumentManager.Instance.OnPerformanceStopped -= OnPerformanceStopped;
+        }
     }
 
     private void OnPlaced(SelectEnterEventArgs args)
     {
-        var instrument = args.interactableObject.transform.GetComponent<Instrument>();
-        if (instrument == null) return;
-        StartCoroutine(DelayedTrembler(instrument));
-        musicianInstrument.SetInstrument(instrument.instrumentType);
+        currentInstrument = args.interactableObject.transform.GetComponent<Instrument>();
+        if (currentInstrument == null) return;
+        if (InstrumentManager.Instance.IsPlaying)
+            StartCoroutine(DelayedTrembler(currentInstrument));
+        musicianInstrument.SetInstrument(currentInstrument.instrumentType);
         SetMusicianHands(false);
-        SetInstrumentHands(instrument.transform, true);
+        SetInstrumentHands(currentInstrument.transform, true);
+
+        if (InstrumentManager.Instance.IsPlaying)
+            currentInstrument.GetComponent<InstrumentParticles>()?.StartPlaying();
     }
 
     private void OnRemoved(SelectExitEventArgs args)
     {
-        var instrument = args.interactableObject.transform.GetComponent<Instrument>();
-        if (instrument == null) return;
-        instrument.GetComponent<InstrumentTrembler>()?.StopTrembling();
+        if (currentInstrument == null) return;
+        currentInstrument.GetComponent<InstrumentTrembler>()?.StopTrembling();
         musicianInstrument.SetInstrument(InstrumentEnum.None);
         SetMusicianHands(true);
-        SetInstrumentHands(instrument.transform, false);
+        SetInstrumentHands(currentInstrument.transform, false);
+        currentInstrument.GetComponent<InstrumentParticles>()?.StopPlaying();
+        currentInstrument = null;
+    }
+
+    private void OnPerformanceStarted()
+    {
+        if (currentInstrument != null)
+        {
+            StartCoroutine(DelayedTrembler(currentInstrument));
+            currentInstrument.GetComponent<InstrumentParticles>()?.StartPlaying();
+        }
+    }
+
+    private void OnPerformanceStopped()
+    {
+        if (currentInstrument != null)
+        {
+            currentInstrument.GetComponent<InstrumentTrembler>()?.StopTrembling();
+            currentInstrument.GetComponent<InstrumentParticles>()?.StopPlaying();
+        }
     }
 
     private void SetMusicianHands(bool active)
