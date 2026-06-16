@@ -10,6 +10,8 @@ public class InstrumentHolder : MonoBehaviour
 
     public void AssignInstrument(Instrument instrument)
     {
+        Debug.Log($"[Holder] instrumentType: {instrument.instrumentType} | musicianInstrument null: {musicianInstrument == null}");
+
         heldInstrument = instrument;
         instrument.SetHolder(this);
 
@@ -17,8 +19,8 @@ public class InstrumentHolder : MonoBehaviour
         if (rb) rb.isKinematic = true;
 
         instrument.transform.SetParent(instrumentAnchor);
-        instrument.transform.localPosition = Vector3.zero;
-        instrument.transform.localRotation = Quaternion.identity;
+        instrument.transform.localPosition = instrument.holdPositionOffset;
+        instrument.transform.localRotation = Quaternion.Euler(instrument.holdRotationOffset);
 
         instrument.GetComponent<InstrumentTrembler>()?.StartTrembling();
         musicianInstrument.SetInstrument(instrument.instrumentType);

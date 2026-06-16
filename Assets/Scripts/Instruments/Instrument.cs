@@ -7,6 +7,10 @@ public class Instrument : MonoBehaviour
     [SerializeField] public InstrumentEnum instrumentType = InstrumentEnum.None;
     [SerializeField] private float assignRadius = 1.0f;
 
+    [Header("Hold Offset (ajustar por instrumento)")]
+    [SerializeField] public Vector3 holdPositionOffset = Vector3.zero;
+    [SerializeField] public Vector3 holdRotationOffset = Vector3.zero;
+
     private InstrumentHolder currentHolder;
     private XRGrabInteractable grabInteractable;
 
@@ -23,16 +27,12 @@ public class Instrument : MonoBehaviour
         grabInteractable.selectExited.RemoveListener(OnReleased);
     }
 
-    private void OnGrabbed(SelectEnterEventArgs args)
-    {
-        currentHolder?.RemoveInstrument();
-    }
+    private void OnGrabbed(SelectEnterEventArgs args) { currentHolder?.RemoveInstrument(); }
 
     private void OnReleased(SelectExitEventArgs args)
     {
         InstrumentHolder nearest = FindNearestFreeHolder();
-        if (nearest != null)
-            nearest.AssignInstrument(this);
+        if (nearest != null) nearest.AssignInstrument(this);
     }
 
     public void SetHolder(InstrumentHolder holder) => currentHolder = holder;
@@ -43,7 +43,6 @@ public class Instrument : MonoBehaviour
         var holders = FindObjectsByType<InstrumentHolder>(FindObjectsSortMode.None);
         InstrumentHolder nearest = null;
         float minDist = assignRadius;
-
         foreach (var holder in holders)
         {
             if (holder.HasInstrument) continue;

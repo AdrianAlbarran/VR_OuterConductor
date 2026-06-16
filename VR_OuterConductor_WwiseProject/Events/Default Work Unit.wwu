@@ -88,7 +88,7 @@
 						<Action Name="" ID="{99980AAC-140F-4F40-8FA9-517DB1EFAB16}" ShortID="216523217">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Song" ID="{15A4EA99-92A1-4033-8E6F-1D287F492969}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+									<ObjectRef Name="SongBlend" ID="{C4A2F904-ECB3-47AA-A59E-C447BD75FC3D}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

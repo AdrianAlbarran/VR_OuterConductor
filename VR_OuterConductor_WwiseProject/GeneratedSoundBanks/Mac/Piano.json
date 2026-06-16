@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AA998650-9587-42BD-A36E-8400D67A0B53}",
     "Language": "SFX",
-    "Hash": "{72F6F6B7-8372-820D-6C07-6679193972F9}",
+    "Hash": "{1DBE2E4A-F352-8D19-0809-8738166A1C40}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Piano",
     "ShortName": "Piano",
     "Path": "Piano.bnk",
@@ -54,15 +54,6 @@
       "Location": "Memory",
       "ShortName": "C5v9.wav",
       "CachePath": "77/{7798BF86-2886-BF0A-2176-0A142C61B52D}.wem"
-     },
-     {
-      "Id": "39305265",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "banjo.wav",
-      "Path": "Media/39305265.wem",
-      "CachePath": "85/{8503DFC6-EFA5-E7F3-A8B9-5BC2B23978D8}.wem"
      },
      {
       "Id": "49303923",
@@ -161,6 +152,24 @@
       "CachePath": "A1/{A196E8AF-898C-4E94-618A-9B69F5D8E50D}.wem"
      },
      {
+      "Id": "137896665",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "flute - còpia.wav",
+      "Path": "Media/137896665.wem",
+      "CachePath": "50/{50ABF35B-0CDF-9547-0954-5A8F8FE8A859}.wem"
+     },
+     {
+      "Id": "146415964",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "drums - còpia.wav",
+      "Path": "Media/146415964.wem",
+      "CachePath": "08/{08A2C003-BF23-C2E5-4F8D-A3FB77B6C0FC}.wem"
+     },
+     {
       "Id": "152542136",
       "Language": "SFX",
       "Streaming": "false",
@@ -249,6 +258,15 @@
       "CachePath": "41/{41C121A4-35E6-F0CB-8ECB-3B680E860CA4}.wem"
      },
      {
+      "Id": "194511471",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "banjo - còpia.wav",
+      "Path": "Media/194511471.wem",
+      "CachePath": "85/{8503DFC6-EFA5-E7F3-A8B9-5BC2B23978D8}.wem"
+     },
+     {
       "Id": "200347408",
       "Language": "SFX",
       "Streaming": "false",
@@ -295,15 +313,6 @@
       "Location": "Memory",
       "ShortName": "A0v9.wav",
       "CachePath": "58/{58E783E5-A2AF-930E-E527-9995D55C72EB}.wem"
-     },
-     {
-      "Id": "222617490",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "harmonica.wav",
-      "Path": "Media/222617490.wem",
-      "CachePath": "28/{28E72081-D54E-DEEA-7661-7423B724CAF9}.wem"
      },
      {
       "Id": "222683907",
@@ -432,15 +441,6 @@
       "Location": "Memory",
       "ShortName": "A2v5.wav",
       "CachePath": "81/{81AF00A3-AA60-7784-CF9D-26B4DA997924}.wem"
-     },
-     {
-      "Id": "343152132",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "whistle.wav",
-      "Path": "Media/343152132.wem",
-      "CachePath": "68/{681FB622-FAAC-FF6B-2179-06DAA6603A18}.wem"
      },
      {
       "Id": "343951494",
@@ -595,6 +595,15 @@
       "CachePath": "A4/{A4F6110C-E5D2-1246-AC28-E0D462B4495A}.wem"
      },
      {
+      "Id": "435469169",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "harmonica - còpia.wav",
+      "Path": "Media/435469169.wem",
+      "CachePath": "28/{28E72081-D54E-DEEA-7661-7423B724CAF9}.wem"
+     },
+     {
       "Id": "441585372",
       "Language": "SFX",
       "Streaming": "false",
@@ -649,15 +658,6 @@
       "Location": "Memory",
       "ShortName": "A4v5.wav",
       "CachePath": "39/{390ACBB3-BEC6-8353-ED17-7140735EA699}.wem"
-     },
-     {
-      "Id": "503168144",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "flute.wav",
-      "Path": "Media/503168144.wem",
-      "CachePath": "50/{50ABF35B-0CDF-9547-0954-5A8F8FE8A859}.wem"
      },
      {
       "Id": "512515023",
@@ -853,6 +853,15 @@
       "CachePath": "28/{2878E32E-383E-0C2C-8BFD-78779ABB4493}.wem"
      },
      {
+      "Id": "735162644",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "piano - còpia.wav",
+      "Path": "Media/735162644.wem",
+      "CachePath": "A6/{A6A1C941-9CF0-0F62-51BB-3B00CD162A21}.wem"
+     },
+     {
       "Id": "740538582",
       "Language": "SFX",
       "Streaming": "false",
@@ -987,15 +996,6 @@
       "Location": "Memory",
       "ShortName": "A4v9.wav",
       "CachePath": "24/{2460CB2E-719F-9F34-CDF4-665F38F9F74A}.wem"
-     },
-     {
-      "Id": "855585680",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "drums.wav",
-      "Path": "Media/855585680.wem",
-      "CachePath": "08/{08A2C003-BF23-C2E5-4F8D-A3FB77B6C0FC}.wem"
      },
      {
       "Id": "860014337",
@@ -1279,21 +1279,21 @@
       "CachePath": "6A/{6AC8F0A2-5CD1-2405-2F07-B79EC8E6E2C8}.wem"
      },
      {
+      "Id": "1047475539",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "whistle - còpia.wav",
+      "Path": "Media/1047475539.wem",
+      "CachePath": "68/{681FB622-FAAC-FF6B-2179-06DAA6603A18}.wem"
+     },
+     {
       "Id": "1062277176",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "F#1v13.wav",
       "CachePath": "29/{2963AAC5-AD4E-D41C-A112-522CB74F6350}.wem"
-     },
-     {
-      "Id": "1066446031",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "piano.wav",
-      "Path": "Media/1066446031.wem",
-      "CachePath": "A6/{A6A1C941-9CF0-0F62-51BB-3B00CD162A21}.wem"
      },
      {
       "Id": "1068525849",
@@ -3223,27 +3223,25 @@
       "Name": "Play_Song",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Song",
       "GUID": "{D8A978EB-4E16-466E-8295-0D5495F4B9C0}",
-      "DurationType": "OneShot",
-      "DurationMin": "41.83298",
-      "DurationMax": "41.83298",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "39305265"
+        "Id": "137896665"
        },
        {
-        "Id": "222617490"
+        "Id": "146415964"
        },
        {
-        "Id": "343152132"
+        "Id": "194511471"
        },
        {
-        "Id": "503168144"
+        "Id": "435469169"
        },
        {
-        "Id": "855585680"
+        "Id": "735162644"
        },
        {
-        "Id": "1066446031"
+        "Id": "1047475539"
        }
       ]
      },
@@ -4265,6 +4263,6 @@
     ]
    }
   ],
-  "FileHash": "{09CCFC25-8880-51E3-294A-4C8094C5E909}"
+  "FileHash": "{6D51886C-7783-3B8F-CD45-B5A79070E700}"
  }
 }

@@ -254,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ed2b4e2abaacb9543a84827fe3dca5de, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7065096
+      value: 2.824
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ed2b4e2abaacb9543a84827fe3dca5de, type: 3}
       propertyPath: m_LocalRotation.w
@@ -359,6 +359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Instrument
   instrumentType: 1
   assignRadius: 1
+  holdPositionOffset: {x: 0, y: 0, z: 0.5}
+  holdRotationOffset: {x: -90, y: -90, z: -90}
 --- !u!114 &207538505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2359,6 +2361,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Instrument
   instrumentType: 4
   assignRadius: 1
+  holdPositionOffset: {x: 0, y: 0, z: 0}
+  holdRotationOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &1240228736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3282,7 +3286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43e8314edd590a4d92c3697fc118a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicianInstrument
-  instrument: 5
+  instrument: 0
 --- !u!114 &1610701097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3691,7 +3695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43e8314edd590a4d92c3697fc118a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicianInstrument
-  instrument: 3
+  instrument: 0
 --- !u!114 &1717262089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3905,7 +3909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43e8314edd590a4d92c3697fc118a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicianInstrument
-  instrument: 4
+  instrument: 0
 --- !u!114 &1929870923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4479,6 +4483,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Instrument
   instrumentType: 6
   assignRadius: 1
+  holdPositionOffset: {x: 0, y: 0, z: 0}
+  holdRotationOffset: {x: -90, y: 90, z: 0}
 --- !u!114 &2059379575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4775,6 +4781,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Instrument
   instrumentType: 2
   assignRadius: 1
+  holdPositionOffset: {x: 0, y: 0, z: 0}
+  holdRotationOffset: {x: -90, y: -90, z: 0}
 --- !u!114 &2060830117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5069,7 +5077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43e8314edd590a4d92c3697fc118a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicianInstrument
-  instrument: 6
+  instrument: 0
 --- !u!114 &2102181623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5314,6 +5322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Instrument
   instrumentType: 3
   assignRadius: 1
+  holdPositionOffset: {x: 0.2, y: 0.3, z: 0.4}
+  holdRotationOffset: {x: -45, y: 0, z: -90}
 --- !u!114 &2104905152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5521,7 +5531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43e8314edd590a4d92c3697fc118a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicianInstrument
-  instrument: 2
+  instrument: 0
 --- !u!114 &2121854506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5696,6 +5706,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1253834321}
     m_Modifications:
+    - target: {fileID: 64672826832421238, guid: 940fc8d15a87df44bbb6815ede1aebe1, type: 3}
+      propertyPath: instrument
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3679549254129417085, guid: 940fc8d15a87df44bbb6815ede1aebe1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.59
