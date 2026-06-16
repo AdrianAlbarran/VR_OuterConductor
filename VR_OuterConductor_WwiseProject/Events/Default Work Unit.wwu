@@ -39,6 +39,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Walk" ID="{0813C3C5-6FAB-47A8-B338-E7E2E3DAA978}">
+					<ChildrenList>
+						<Action Name="" ID="{4D73D08A-1F8D-4696-8BD8-8B6823D876E9}" ShortID="293930227">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walk" ID="{F36BE206-F73F-4B72-AF97-6A927AA8404A}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Button_Select" ID="{DAC49DB8-11C1-40D9-B68F-FDCE92C68C21}">
+					<ChildrenList>
+						<Action Name="" ID="{8AAE75A5-BD3C-4102-90F0-8B87F3320BF3}" ShortID="286935921">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Select" ID="{DC9F62EC-D79F-48B9-9C7D-3572E110C1CD}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Button_Click" ID="{C3C397B5-4FBD-4829-BBC6-F1E6FB05C19B}">
+					<ChildrenList>
+						<Action Name="" ID="{E6B3C8D3-0E5D-4E7B-89A5-93A4AB4C467A}" ShortID="569475895">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Click" ID="{70DF031E-9974-4440-9349-6B63DA2F1BDC}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Button_Hover" ID="{1CB369A0-48A3-4015-9025-C50C3D303C57}">
+					<ChildrenList>
+						<Action Name="" ID="{CD12854B-9EF8-46F4-B16F-C7852B4111EF}" ShortID="635570193">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hover" ID="{FE263D3C-C193-4D04-B523-1663E313C847}" WorkUnitID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

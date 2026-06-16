@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AA998650-9587-42BD-A36E-8400D67A0B53}",
     "Language": "SFX",
-    "Hash": "{541C7C63-A1ED-A0A3-ED6E-F31236AB7D8B}",
+    "Hash": "{7DB19823-C52E-2F28-99D2-D704D8D1CDF9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Piano",
     "ShortName": "Piano",
     "Path": "Piano.bnk",
@@ -54,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "C5v9.wav",
       "CachePath": "77/{7798BF86-2886-BF0A-2176-0A142C61B52D}.wem"
+     },
+     {
+      "Id": "49303923",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "walk1.wav",
+      "CachePath": "71/{7111E046-C0E8-FC68-C928-0C090976B9FB}.wem"
      },
      {
       "Id": "52510097",
@@ -198,6 +206,14 @@
       "Location": "Memory",
       "ShortName": "C2v5.wav",
       "CachePath": "99/{997045B2-066A-262E-A068-CAB0C6631052}.wem"
+     },
+     {
+      "Id": "182143019",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Select.wav",
+      "CachePath": "6E/{6EA595F5-762E-4645-F753-00E7165C79BF}.wem"
      },
      {
       "Id": "182205564",
@@ -406,6 +422,14 @@
       "Location": "Memory",
       "ShortName": "F#7v1.wav",
       "CachePath": "48/{48FA4045-9438-C58B-5B8E-5D17E2DE38A3}.wem"
+     },
+     {
+      "Id": "348866030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "walk4.wav",
+      "CachePath": "E6/{E6A9938D-B9A0-F9D9-608D-819AA5F043B1}.wem"
      },
      {
       "Id": "355715510",
@@ -897,6 +921,14 @@
       "CachePath": "89/{89B6A245-B931-CEE6-DFAA-CF9586161EE4}.wem"
      },
      {
+      "Id": "814478507",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Click.wav",
+      "CachePath": "51/{51129968-DEFF-74CE-4507-D0EDB671E252}.wem"
+     },
+     {
       "Id": "822080620",
       "Language": "SFX",
       "Streaming": "false",
@@ -1025,6 +1057,14 @@
       "CachePath": "43/{43733969-F47E-03C9-ACFB-FB681BF41624}.wem"
      },
      {
+      "Id": "930931856",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "walk3.wav",
+      "CachePath": "DA/{DA8D5DB0-FC66-3ACF-E0CA-F68C34D11C1E}.wem"
+     },
+     {
       "Id": "934080758",
       "Language": "SFX",
       "Streaming": "false",
@@ -1039,6 +1079,14 @@
       "Location": "Memory",
       "ShortName": "A1v9.wav",
       "CachePath": "D6/{D6B66CC5-21BB-F3F8-4155-F02BB3FEFFFF}.wem"
+     },
+     {
+      "Id": "972504077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "walk2.wav",
+      "CachePath": "10/{1050A343-2265-9B04-45F1-43C6FBE501A5}.wem"
      },
      {
       "Id": "972514740",
@@ -1170,6 +1218,14 @@
       "CachePath": "D2/{D29E976B-3E69-764B-409D-F277A32DF8FF}.wem"
      },
      {
+      "Id": "1043689304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hover.wav",
+      "CachePath": "78/{7836A07B-6C83-E797-9DC9-EB7EBFC67CB8}.wem"
+     },
+     {
       "Id": "1044980942",
       "Language": "SFX",
       "Streaming": "false",
@@ -1195,6 +1251,48 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1149159311",
+      "Name": "Play_Button_Click",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Button_Click",
+      "GUID": "{C3C397B5-4FBD-4829-BBC6-F1E6FB05C19B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2857143",
+      "DurationMax": "1.2857143",
+      "MediaRefs": [
+       {
+        "Id": "814478507"
+       }
+      ]
+     },
+     {
+      "Id": "4021863785",
+      "Name": "Play_Button_Hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Button_Hover",
+      "GUID": "{1CB369A0-48A3-4015-9025-C50C3D303C57}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.712517",
+      "DurationMax": "0.712517",
+      "MediaRefs": [
+       {
+        "Id": "1043689304"
+       }
+      ]
+     },
+     {
+      "Id": "2034692297",
+      "Name": "Play_Button_Select",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Button_Select",
+      "GUID": "{DAC49DB8-11C1-40D9-B68F-FDCE92C68C21}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2857143",
+      "DurationMax": "1.2857143",
+      "MediaRefs": [
+       {
+        "Id": "182143019"
+       }
+      ]
+     },
      {
       "Id": "2007906036",
       "Name": "Play_Piano_Note",
@@ -3067,6 +3165,29 @@
       ]
      },
      {
+      "Id": "1589278981",
+      "Name": "Play_Walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Walk",
+      "GUID": "{0813C3C5-6FAB-47A8-B338-E7E2E3DAA978}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.36458808",
+      "DurationMax": "0.76633716",
+      "MediaRefs": [
+       {
+        "Id": "49303923"
+       },
+       {
+        "Id": "348866030"
+       },
+       {
+        "Id": "930931856"
+       },
+       {
+        "Id": "972504077"
+       }
+      ]
+     },
+     {
       "Id": "2023544253",
       "Name": "Release_Piano_Note",
       "ObjectPath": "\\Events\\Default Work Unit\\Release_Piano_Note",
@@ -4019,6 +4140,6 @@
     ]
    }
   ],
-  "FileHash": "{C00A021B-362A-3444-B1BA-F656BE2341A7}"
+  "FileHash": "{AE08D973-CB4E-FA10-7197-19938A6B5DA4}"
  }
 }

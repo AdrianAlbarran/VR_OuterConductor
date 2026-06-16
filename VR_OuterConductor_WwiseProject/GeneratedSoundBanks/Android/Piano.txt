@@ -1,7 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1069606734	Stop_Piano_Note			\Default Work Unit\Stop_Piano_Note	
+	1149159311	Play_Button_Click			\Default Work Unit\Play_Button_Click	
+	1589278981	Play_Walk			\Default Work Unit\Play_Walk	
 	2007906036	Play_Piano_Note			\Default Work Unit\Play_Piano_Note	
 	2023544253	Release_Piano_Note			\Default Work Unit\Release_Piano_Note	
+	2034692297	Play_Button_Select			\Default Work Unit\Play_Button_Select	
+	4021863785	Play_Button_Hover			\Default Work Unit\Play_Button_Hover	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1256091261	PianoVelocity			\Default Work Unit\PianoVelocity	
@@ -110,6 +114,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	14496994	Rel_Ds2	.cache\EF\{EFEAECBE-C587-3742-5A10-ADAC7336DD15}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Ds2		7769
 	18174584	A3_v1	.cache\25\{25EDC035-F826-7CD9-BD25-C9B684C9F147}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A3\A3_v1		176058
 	38962799	C5_v9	.cache\77\{7798BF86-2886-BF0A-2176-0A142C61B52D}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C5\C5_v9		213162
+	49303923	walk1	.cache\71\{7111E046-C0E8-FC68-C928-0C090976B9FB}.wem		\Containers\Default Work Unit\Walk\walk1		6918
 	52510097	Rel_Fs2	.cache\1E\{1E2E0107-D3C7-1A33-EAE7-64D4690EF969}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs2		7694
 	58524133	Rel_C4	.cache\09\{09D236FD-7B68-8DCF-DE4F-4E4923F580A0}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C4		8003
 	66233290	C6_v5	.cache\F8\{F894D5DA-61AE-4C39-85FC-8419B77390B0}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C6\C6_v5		80064
@@ -128,6 +133,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	165428246	Ds2_v13	.cache\C5\{C54854C8-7CBC-DF8A-0000-6159F8CF0691}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds2\Ds2_v13		298393
 	173781756	Rel_Fs5	.cache\67\{678CAEBF-0F93-FD09-F2CA-E3AA3F20F543}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs5		8019
 	179540150	C2_v5	.cache\99\{997045B2-066A-262E-A068-CAB0C6631052}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C2\C2_v5		304621
+	182143019	Select	.cache\6E\{6EA595F5-762E-4645-F753-00E7165C79BF}.wem		\Containers\Default Work Unit\UI\Select		18277
 	182205564	Rel_Ds5	.cache\79\{793E4EF1-2483-C8AC-4948-7B665ABB1191}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Ds5		8071
 	188922901	A1_v1	.cache\34\{34DCFB89-632A-8D53-8A76-E3E03E3D4EB9}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A1\A1_v1		273920
 	190376158	Fs3_v1	.cache\41\{41C121A4-35E6-F0CB-8ECB-3B680E860CA4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs3\Fs3_v1		209206
@@ -154,6 +160,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	322131384	C1_v5	.cache\8B\{8BD9AB42-AC4A-84AE-C02D-6FABCFD60DFA}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C1\C1_v5		310124
 	339191256	A2_v5	.cache\81\{81AF00A3-AA60-7784-CF9D-26B4DA997924}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A2\A2_v5		215942
 	343951494	Fs7_v1	.cache\48\{48FA4045-9438-C58B-5B8E-5D17E2DE38A3}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs7\Fs7_v1		66941
+	348866030	walk4	.cache\E6\{E6A9938D-B9A0-F9D9-608D-819AA5F043B1}.wem		\Containers\Default Work Unit\Walk\walk4		4938
 	355715510	C4_v1	.cache\EA\{EA19A9D4-95FD-16B0-70DD-8E336A4C7802}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C4\C4_v1		160640
 	356280509	Ds1_v5	.cache\42\{42A91CBD-F5F5-5F3A-0EA6-075F8BA85EA5}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds1\Ds1_v5		322853
 	365348807	Ds4_v13	.cache\CB\{CB96148D-4A4E-91D6-ACB8-12E62C9ED93B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds4\Ds4_v13		212130
@@ -214,6 +221,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	802268441	C4_v9	.cache\73\{73E6C129-A94D-685C-7D52-A5087E1388D3}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C4\C4_v9		211728
 	808867219	Ds4_v9	.cache\5E\{5E58C54B-E499-A37E-BE77-6AD22FF231BC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds4\Ds4_v9		202726
 	810516540	C8_v5	.cache\89\{89B6A245-B931-CEE6-DFAA-CF9586161EE4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C8\C8_v5		38968
+	814478507	Click	.cache\51\{51129968-DEFF-74CE-4507-D0EDB671E252}.wem		\Containers\Default Work Unit\UI\Click		18675
 	822080620	C5_v5	.cache\D1\{D1BF72A9-DE02-46CA-3776-F9350D432860}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C5\C5_v5		214487
 	839506534	A4_v1	.cache\67\{67893E8E-E3C5-734C-E2D1-87E7EDD162C2}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A4\A4_v1		178259
 	846264343	A4_v9	.cache\24\{2460CB2E-719F-9F34-CDF4-665F38F9F74A}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A4\A4_v9		184659
@@ -230,8 +238,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	923762452	Rel_Fs4	.cache\FA\{FA7CFF56-917B-F4FE-FED4-2C1B813079F7}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs4		8133
 	923929375	Rel_A7	.cache\24\{24FF3BCC-FEC0-F83E-96EB-D6AAAD529774}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A7		7800
 	926090944	C3_v1	.cache\43\{43733969-F47E-03C9-ACFB-FB681BF41624}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C3\C3_v1		212615
+	930931856	walk3	.cache\DA\{DA8D5DB0-FC66-3ACF-E0CA-F68C34D11C1E}.wem		\Containers\Default Work Unit\Walk\walk3		4924
 	934080758	A7_v5	.cache\BE\{BE259161-2F23-E651-D823-AEF3B832C1CC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A7\A7_v5		51399
 	950846106	A1_v9	.cache\D6\{D6B66CC5-21BB-F3F8-4155-F02BB3FEFFFF}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A1\A1_v9		311734
+	972504077	walk2	.cache\10\{1050A343-2265-9B04-45F1-43C6FBE501A5}.wem		\Containers\Default Work Unit\Walk\walk2		5646
 	972514740	Ds5_v9	.cache\A5\{A5638B7A-985A-E2C0-1F9E-FF336F48E5B8}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds5\Ds5_v9		174013
 	975224471	Rel_A3	.cache\60\{6080D43D-45F9-9F2D-9BF2-BF82A4480592}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_A3		7531
 	978248487	Rel_C7	.cache\0B\{0B7A3DE0-AB58-7AE4-BBBE-F2376F4D484B}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_C7		7379
@@ -247,6 +257,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1025210933	A0_v13	.cache\CE\{CED32CF5-1099-EC26-F2E9-CD7B3C126981}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_A0\A0_v13		327432
 	1036549643	C5_v13	.cache\71\{718AF410-6B14-AB1E-5105-3C2FAE1CC8CC}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C5\C5_v13		203279
 	1039446306	C6_v9	.cache\D2\{D29E976B-3E69-764B-409D-F277A32DF8FF}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_C6\C6_v9		83931
+	1043689304	Hover	.cache\78\{7836A07B-6C83-E797-9DC9-EB7EBFC67CB8}.wem		\Containers\Default Work Unit\UI\Hover		2211
 	1044980942	Rel_Fs1	.cache\6A\{6AC8F0A2-5CD1-2405-2F07-B79EC8E6E2C8}.wem		\Containers\Default Work Unit\Piano\Piano_Release\Rel_Fs1		7941
 	1062277176	Fs1_v13	.cache\29\{2963AAC5-AD4E-D41C-A112-522CB74F6350}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs1\Fs1_v13		290268
 	1068525849	Fs3_v13	.cache\17\{175EE56B-21A9-CF87-CB3A-5FE98ABC19C4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs3\Fs3_v13		216758

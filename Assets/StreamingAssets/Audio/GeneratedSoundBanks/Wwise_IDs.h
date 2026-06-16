@@ -13,7 +13,11 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BUTTON_CLICK = 1149159311U;
+        static const AkUniqueID PLAY_BUTTON_HOVER = 4021863785U;
+        static const AkUniqueID PLAY_BUTTON_SELECT = 2034692297U;
         static const AkUniqueID PLAY_PIANO_NOTE = 2007906036U;
+        static const AkUniqueID PLAY_WALK = 1589278981U;
         static const AkUniqueID RELEASE_PIANO_NOTE = 2023544253U;
         static const AkUniqueID STOP_PIANO_NOTE = 1069606734U;
     } // namespace EVENTS
@@ -135,6 +139,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID KEYPRESSURE = 700021219U;
+        static const AkUniqueID MASTERVOLUME = 2918011349U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

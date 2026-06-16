@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{639DDFAC-4F95-DB75-1ADB-E6C1AF53BFEC}",
+    "Hash": "{A0D35B25-AF61-2D61-87FC-548C1B815A7B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -48,6 +48,12 @@
       "Name": "KeyPressure",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\KeyPressure",
       "GUID": "{6B2A8AB1-1D3B-4647-BB4F-4056CC3FD820}"
+     },
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
+      "GUID": "{8D6632EC-B4EB-4E97-BA5B-A67E186436C4}"
      }
     ],
     "SwitchGroups": [
@@ -622,6 +628,6 @@
     ]
    }
   ],
-  "FileHash": "{79BB2D16-0C77-5546-6636-D36670259585}"
+  "FileHash": "{7EEA09FD-6647-D448-BDBC-DF911681B9C1}"
  }
 }
