@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	251043389	Play_Song			\Default Work Unit\Play_Song	
 	1069606734	Stop_Piano_Note			\Default Work Unit\Stop_Piano_Note	
 	1149159311	Play_Button_Click			\Default Work Unit\Play_Button_Click	
 	1589278981	Play_Walk			\Default Work Unit\Play_Walk	
@@ -107,6 +108,13 @@ Switch	ID	Name	Switch Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	700021219	KeyPressure			\Default Work Unit\KeyPressure	
+	1130429031	FluteVolume			\Default Work Unit\instruments\FluteVolume	
+	1821095354	PianoVolume			\Default Work Unit\instruments\PianoVolume	
+	2038381523	BanjoVolume			\Default Work Unit\instruments\BanjoVolume	
+	2301001150	DrumsVolume			\Default Work Unit\instruments\DrumsVolume	
+	2381809963	WhistleVolume			\Default Work Unit\instruments\WhistleVolume	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+	3297833431	HarmonicaVolume			\Default Work Unit\instruments\HarmonicaVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9662	Ds2_v1	.cache\56\{56421F68-0BDB-F7F0-F689-2978CBAAC17B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds2\Ds2_v1		254321
@@ -263,6 +271,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1068525849	Fs3_v13	.cache\17\{175EE56B-21A9-CF87-CB3A-5FE98ABC19C4}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Fs3\Fs3_v13		216758
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	39305265	banjo	.cache\85\{8503DFC6-EFA5-E7F3-A8B9-5BC2B23978D8}.wem	39305265.wem	\Containers\Default Work Unit\Music\Song\banjo	
+	222617490	harmonica	.cache\28\{28E72081-D54E-DEEA-7661-7423B724CAF9}.wem	222617490.wem	\Containers\Default Work Unit\Music\Song\harmonica	
+	343152132	whistle	.cache\68\{681FB622-FAAC-FF6B-2179-06DAA6603A18}.wem	343152132.wem	\Containers\Default Work Unit\Music\Song\whistle	
+	503168144	flute	.cache\50\{50ABF35B-0CDF-9547-0954-5A8F8FE8A859}.wem	503168144.wem	\Containers\Default Work Unit\Music\Song\flute	
 	512515023	A0_v1	.cache\D1\{D1E273DC-D013-DFE4-7D7E-021417016589}.wem	512515023.wem	\Containers\Default Work Unit\Piano\Piano_Body\Piano_A0\A0_v1	
+	855585680	drums	.cache\08\{08A2C003-BF23-C2E5-4F8D-A3FB77B6C0FC}.wem	855585680.wem	\Containers\Default Work Unit\Music\Song\drums	
 	993658540	Rel_A0	.cache\71\{71DB9E1E-21E7-D648-A061-BC4AEC868A47}.wem	993658540.wem	\Containers\Default Work Unit\Piano\Piano_Release\Rel_A0	
+	1066446031	piano	.cache\A6\{A6A1C941-9CF0-0F62-51BB-3B00CD162A21}.wem	1066446031.wem	\Containers\Default Work Unit\Music\Song\piano	
 

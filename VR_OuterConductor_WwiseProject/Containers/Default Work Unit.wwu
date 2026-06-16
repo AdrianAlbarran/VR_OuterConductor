@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{3DD25CC1-DBEB-4259-A666-A1F1C0E9D561}" PersistMode="Standalone">
 			<ChildrenList>
 				<PropertyContainer Name="Piano" ID="{6C611084-B7E8-4FA0-8BB5-0D7F34C478E6}" ShortID="856053488">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1873FB8E-9732-4AAF-B583-E4496CB48337}"/>
@@ -14988,6 +14995,591 @@
 								<ActiveSource Name="Select" ID="{44547ECD-5A95-4727-98F2-0E95085148BE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{3C111171-2D5E-448E-8E6B-9CECB7E4C4BD}" ShortID="648815597">
+					<ChildrenList>
+						<MusicSegment Name="Song" ID="{15A4EA99-92A1-4033-8E6F-1D287F492969}" ShortID="101659899">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="41832.9791666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1873FB8E-9732-4AAF-B583-E4496CB48337}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83B0AEC2-31BE-4C3C-946F-C6F2BB8582DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="harmonica" ID="{B7508421-6B90-4425-AE12-7842CEBE3B42}" ShortID="836552221">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1873FB8E-9732-4AAF-B583-E4496CB48337}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83B0AEC2-31BE-4C3C-946F-C6F2BB8582DA}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{EF125B6C-96E4-4EEA-912E-BBC27826C983}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="harmonica" ID="{868FC7F5-468F-4841-AAA5-1B1AEF775410}">
+											<Language>SFX</Language>
+											<AudioFile>harmonica.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="222617490"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{7195E067-932B-465C-A1F6-69168C2E79CD}" ShortID="207556440">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="HarmonicaVolume" ID="{E2CD7604-D65E-4FFF-ABB5-2D4F066F09B9}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{F63770B1-0F80-4448-B64C-FC7E57A9ED2D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{8D9B4711-6CFB-4E23-9395-7BC7DF0BD932}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="harmonica" ID="{3E9DA7CA-12FB-4358-9900-0EE10A8FE6B7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="41832.9791666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="harmonica" ID="{868FC7F5-468F-4841-AAA5-1B1AEF775410}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="piano" ID="{C68FFAD6-71BA-4457-982E-C3891790DC55}" ShortID="75485756">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1873FB8E-9732-4AAF-B583-E4496CB48337}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83B0AEC2-31BE-4C3C-946F-C6F2BB8582DA}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{C737E047-4FF8-4275-84D3-CC29E5684541}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="piano" ID="{51DC5768-999A-4E8B-9D1C-AC26D360D05A}">
+											<Language>SFX</Language>
+											<AudioFile>piano.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1066446031"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{B06EE1E6-1960-4619-A8E6-C66EAAAE6AD5}" ShortID="766558051">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="PianoVolume" ID="{018A788B-024E-4BAE-8F68-A28C3D4A8836}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{BD2083C2-F724-4467-9633-5E9EA0BA0C68}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{8D6FCB13-CF24-4FF1-B511-A39FA03E3DF6}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="piano" ID="{30240F25-ABB0-43BC-BD00-4AA5488B3C96}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="41832.9791666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="piano" ID="{51DC5768-999A-4E8B-9D1C-AC26D360D05A}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="flute" ID="{AFA4ED2D-2733-4D89-B5AA-B12CFCA22934}" ShortID="893932955">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1873FB8E-9732-4AAF-B583-E4496CB48337}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83B0AEC2-31BE-4C3C-946F-C6F2BB8582DA}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{5A3C3B56-6D96-496A-96DD-18B6AE2F1EC2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flute" ID="{5F5F2A7E-3756-4D86-90F5-AD275C062EF0}">
+											<Language>SFX</Language>
+											<AudioFile>flute.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="503168144"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{D7A14DEE-131D-45EB-B825-A392B0037B6F}" ShortID="719171495">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="FluteVolume" ID="{C08A7792-80B7-47A5-922D-BF12C46C83F3}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{A74EFD68-CCFC-4499-B69F-E07725962CC3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{76B168F5-C259-4EB0-A039-213F017366D0}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="flute" ID="{A3F946FF-6727-4951-AF66-AEEAB32C86A8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="41808.9791666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="flute" ID="{5F5F2A7E-3756-4D86-90F5-AD275C062EF0}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="banjo" ID="{2AA3E089-9637-4B99-8D76-832EAD5F3B4E}" ShortID="680139435">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1873FB8E-9732-4AAF-B583-E4496CB48337}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83B0AEC2-31BE-4C3C-946F-C6F2BB8582DA}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{4308FCE7-C230-4FB0-9E98-5B74C38F609D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="banjo" ID="{9B441FDE-7D94-455B-93FB-0C8C8E5F4F26}">
+											<Language>SFX</Language>
+											<AudioFile>banjo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="39305265"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{B53040B8-486A-4766-9BCE-B3E455D06EFD}" ShortID="1052099409">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="BanjoVolume" ID="{C52E9C3C-7493-4BB6-AC68-0D899A224D01}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{586A7F94-5386-45FA-8866-C12310CB30A9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{7F95F0DB-CD3E-4672-9D82-6CC04F71A3AE}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="banjo" ID="{B0BF09AC-6400-4243-B8BC-D9C13AAF3F18}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="41832.9791666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="banjo" ID="{9B441FDE-7D94-455B-93FB-0C8C8E5F4F26}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="drums" ID="{210A4284-80EF-4498-81EF-9A3EEE22E73F}" ShortID="555716314">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1873FB8E-9732-4AAF-B583-E4496CB48337}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83B0AEC2-31BE-4C3C-946F-C6F2BB8582DA}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{45118BCE-CE72-41ED-942E-7D1450853F73}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drums" ID="{E61E54E4-E6F2-43AC-A61E-4303B4CD69B3}">
+											<Language>SFX</Language>
+											<AudioFile>drums.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="855585680"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{A230DBFE-A034-4B22-A365-9002E185A2A3}" ShortID="513968595">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="DrumsVolume" ID="{B3545183-38CC-486D-90A4-4D37ADC022DD}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{B4D4E984-8276-411D-8110-2A0D3C7D5CA7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{A4D30980-0F6E-4D6D-B10C-5E6D71A42FA3}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="drums" ID="{39286908-8B13-4EBC-97CA-0D8DD726AEF8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="41808.9791666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="drums" ID="{E61E54E4-E6F2-43AC-A61E-4303B4CD69B3}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="whistle" ID="{0425C5D5-3D97-449C-AC0F-33ACB25C5342}" ShortID="1021839667">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1873FB8E-9732-4AAF-B583-E4496CB48337}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83B0AEC2-31BE-4C3C-946F-C6F2BB8582DA}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{F642C46A-74AC-48A0-9AA0-687A5F3943E1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="whistle" ID="{DB363EE6-A99C-47AC-AEB7-FBFE928FA06D}">
+											<Language>SFX</Language>
+											<AudioFile>whistle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343152132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{140AF352-C45B-48B6-B2BB-B234498A264F}" ShortID="268107127">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="WhistleVolume" ID="{9E85CCD6-60A6-44AF-BF2B-1574D80A02ED}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{9D7D53CA-69DF-467F-9285-D1DC2A428FDD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{6FC0D9B9-7241-408C-AEEB-04B6A7C7D863}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="whistle" ID="{8647CC8A-6A41-4747-AB82-F7989C6DD2E1}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="41832.9791666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="whistle" ID="{DB363EE6-A99C-47AC-AEB7-FBFE928FA06D}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<MusicCue Name="Entry Cue" ID="{6563FA6D-4D45-4E00-9CD5-5E8317DF9F6F}"/>
+									<MusicCue Name="Exit Cue" ID="{DA8FB07E-F4FB-44E3-AB48-CB10FF30C523}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										</PropertyList>
+									</MusicCue>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{EDD4B004-5E56-4F3A-A6AD-07679A4A648D}" ShortID="460280101">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MasterVolume" ID="{8D6632EC-B4EB-4E97-BA5B-A67E186436C4}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{540E465C-5838-402D-9138-7648C1BA4C7A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

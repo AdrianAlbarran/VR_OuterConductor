@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1E985204-76AC-976F-7D1D-DB7E8E4E54D5}",
+    "Hash": "{EE97EC25-B16F-64AC-87AD-17E9D4411ADC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -50,10 +50,46 @@
       "GUID": "{6B2A8AB1-1D3B-4647-BB4F-4056CC3FD820}"
      },
      {
+      "Id": "1130429031",
+      "Name": "FluteVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\FluteVolume",
+      "GUID": "{C08A7792-80B7-47A5-922D-BF12C46C83F3}"
+     },
+     {
+      "Id": "1821095354",
+      "Name": "PianoVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\PianoVolume",
+      "GUID": "{018A788B-024E-4BAE-8F68-A28C3D4A8836}"
+     },
+     {
+      "Id": "2038381523",
+      "Name": "BanjoVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\BanjoVolume",
+      "GUID": "{C52E9C3C-7493-4BB6-AC68-0D899A224D01}"
+     },
+     {
+      "Id": "2301001150",
+      "Name": "DrumsVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\DrumsVolume",
+      "GUID": "{B3545183-38CC-486D-90A4-4D37ADC022DD}"
+     },
+     {
+      "Id": "2381809963",
+      "Name": "WhistleVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\WhistleVolume",
+      "GUID": "{9E85CCD6-60A6-44AF-BF2B-1574D80A02ED}"
+     },
+     {
       "Id": "2918011349",
       "Name": "MasterVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
       "GUID": "{8D6632EC-B4EB-4E97-BA5B-A67E186436C4}"
+     },
+     {
+      "Id": "3297833431",
+      "Name": "HarmonicaVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\HarmonicaVolume",
+      "GUID": "{E2CD7604-D65E-4FFF-ABB5-2D4F066F09B9}"
      }
     ],
     "SwitchGroups": [
@@ -628,6 +664,6 @@
     ]
    }
   ],
-  "FileHash": "{D4E38295-BA5C-83BE-F316-69FE6BABB9BF}"
+  "FileHash": "{BC0AD6DD-E804-FADD-44E6-C505CA13FA46}"
  }
 }

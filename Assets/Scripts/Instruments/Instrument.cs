@@ -3,38 +3,15 @@ using UnityEngine;
 
 public class Instrument : MonoBehaviour
 {
-    // Wwise track (change data type)
-    public int track;
-    
-    // Callbacks
-    public Action onTaken;            // Called in "Select" at "XR Grab Interactable" component (WIP)
-    public Action onDropped;          // Called in "Select Exited" at "XR Grab Interactable" component (WIP)
+    public InstrumentEnum instrumentType = InstrumentEnum.None;
 
+    public Action onTaken;
+    public Action onDropped;
 
-    public void Play()
-    {
-        // TODO: ADD WWISE CONNECTION
-    }
+    public void Play() { InstrumentManager.Instance.AssignInstrument(instrumentType); }
+    public void Stop() { InstrumentManager.Instance.RemoveInstrument(instrumentType); }
+    public void Restart() { }
 
-    public void Stop()
-    {
-        // TODO: ADD WWISE CONNECTION
-    }
-
-    public void Restart()
-    {
-        // TODO: ADD WWISE CONNECTION
-    }
-
-    public void Taken()
-    {
-        onTaken.Invoke();
-    }
-
-    public void Dropped()
-    {
-        onDropped.Invoke();
-    }
-
-
+    public void Taken() { onTaken?.Invoke(); }
+    public void Dropped() { onDropped?.Invoke(); }
 }

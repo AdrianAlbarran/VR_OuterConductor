@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_BUTTON_HOVER = 4021863785U;
         static const AkUniqueID PLAY_BUTTON_SELECT = 2034692297U;
         static const AkUniqueID PLAY_PIANO_NOTE = 2007906036U;
+        static const AkUniqueID PLAY_SONG = 251043389U;
         static const AkUniqueID PLAY_WALK = 1589278981U;
         static const AkUniqueID RELEASE_PIANO_NOTE = 2023544253U;
         static const AkUniqueID STOP_PIANO_NOTE = 1069606734U;
@@ -138,8 +139,14 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID BANJOVOLUME = 2038381523U;
+        static const AkUniqueID DRUMSVOLUME = 2301001150U;
+        static const AkUniqueID FLUTEVOLUME = 1130429031U;
+        static const AkUniqueID HARMONICAVOLUME = 3297833431U;
         static const AkUniqueID KEYPRESSURE = 700021219U;
         static const AkUniqueID MASTERVOLUME = 2918011349U;
+        static const AkUniqueID PIANOVOLUME = 1821095354U;
+        static const AkUniqueID WHISTLEVOLUME = 2381809963U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

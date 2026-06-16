@@ -14,6 +14,40 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<Folder Name="instruments" ID="{A531E81C-07D9-4F91-B2FC-587A78EB5FFE}" ShortID="911524222">
+					<ChildrenList>
+						<GameParameter Name="BanjoVolume" ID="{C52E9C3C-7493-4BB6-AC68-0D899A224D01}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="DrumsVolume" ID="{B3545183-38CC-486D-90A4-4D37ADC022DD}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="FluteVolume" ID="{C08A7792-80B7-47A5-922D-BF12C46C83F3}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="HarmonicaVolume" ID="{E2CD7604-D65E-4FFF-ABB5-2D4F066F09B9}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="PianoVolume" ID="{018A788B-024E-4BAE-8F68-A28C3D4A8836}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="WhistleVolume" ID="{9E85CCD6-60A6-44AF-BF2B-1574D80A02ED}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
