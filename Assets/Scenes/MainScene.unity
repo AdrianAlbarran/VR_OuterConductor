@@ -2498,7 +2498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7675252312996897644, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_Name
-      value: Expositor_Bongos
+      value: Display_Bongos
       objectReference: {fileID: 0}
     - target: {fileID: 8076306242717207867, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_InteractionManager
@@ -7729,7 +7729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7675252312996897644, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_Name
-      value: Expositor_Flute
+      value: Display_Flute
       objectReference: {fileID: 0}
     - target: {fileID: 8076306242717207867, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_InteractionManager
@@ -12589,7 +12589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7675252312996897644, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_Name
-      value: Expositor_Whistle
+      value: Display_Whistle
       objectReference: {fileID: 0}
     - target: {fileID: 8076306242717207867, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_StartingSelectedInteractable
@@ -12695,7 +12695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7675252312996897644, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_Name
-      value: Expositor_Harmonica
+      value: Display_Harmonica
       objectReference: {fileID: 0}
     - target: {fileID: 8076306242717207867, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_InteractionManager
@@ -20296,7 +20296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7675252312996897644, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_Name
-      value: Expositor_Banjo
+      value: Display_Banjo
       objectReference: {fileID: 0}
     - target: {fileID: 8076306242717207867, guid: 218fa93539c36304988bf9683f544891, type: 3}
       propertyPath: m_InteractionManager
