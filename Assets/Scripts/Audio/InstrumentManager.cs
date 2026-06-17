@@ -44,6 +44,11 @@ public class InstrumentManager : MonoBehaviour
     void Awake() => Instance = this;
     void OnApplicationQuit() => isQuitting = true;
 
+    private void Start()
+    {
+        m_baton.changeTempo.AddListener(UpdateTempo);
+    }
+
     public void StartPerformance()
     {
         IsPlaying = true;
@@ -80,8 +85,7 @@ public class InstrumentManager : MonoBehaviour
     private void UpdateTempo(float value)
     {
         m_tempo = Mathf.Clamp(m_tempo + value, 0, 200);
-        
-        // Update play velocity
-        
+        Debug.Log(m_tempo);
+        AkUnitySoundEngine.SetRTPCValue("InstrumentTempo", m_tempo, null);
     }
 }

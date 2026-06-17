@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 830057196331516121}
   - component: {fileID: 905765047957760062}
   - component: {fileID: 2024579579275638245}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2823382230709599933}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PressedPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1780479658816816664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ReturnButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
@@ -422,7 +422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d74a56e98007ec438dc90ce9c345997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReturnInstrument
-  m_instrument: {fileID: 0}
+  m_grabInteractable: {fileID: 0}
   m_socketInteractor: {fileID: 8076306242717207867}
 --- !u!1 &8542410979541835824
 GameObject:
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 6589055546369565294}
   - component: {fileID: 3996023131060575353}
   - component: {fileID: 7007386345204238395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PushButton
   m_TagString: Button
   m_Icon: {fileID: 0}

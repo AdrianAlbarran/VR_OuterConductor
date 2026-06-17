@@ -15,6 +15,7 @@ public class BatonGestureTracker : MonoBehaviour
     [SerializeField] private InputActionReference m_recordMovement;
     [SerializeField] private int m_referenceFrequency;
     [SerializeField] private float m_tempoModifier; // Positive, between 1 and 10
+    [SerializeField] private float m_timeBeetwenStrokes = 1.0f; // Positive, between 1 and 10
 
     private List<Vector3> _positionHistory = new List<Vector3>();
     private Vector3 _lastPosition;
