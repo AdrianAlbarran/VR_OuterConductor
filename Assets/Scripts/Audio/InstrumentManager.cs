@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum InstrumentEnum { None, Banjo, Drums, Flute, Harmonica, Piano, Whistle }
@@ -34,6 +36,11 @@ public class InstrumentManager : MonoBehaviour
     private readonly Dictionary<InstrumentEnum, GameObject> activeSources = new();
     private bool isQuitting = false;
 
+    [Header("Reference for controlling Tempo")]
+    [SerializeField] BatonGestureTracker m_baton;
+    private float m_tempo = 100;
+
+
     void Awake() => Instance = this;
     void OnApplicationQuit() => isQuitting = true;
 
@@ -68,5 +75,13 @@ public class InstrumentManager : MonoBehaviour
         if (IsPlaying && activeSources.TryGetValue(instrument, out var source))
             AkUnitySoundEngine.PostEvent(stopEvents[instrument], source);
         activeSources.Remove(instrument);
+    }
+
+    private void UpdateTempo(float value)
+    {
+        m_tempo = Mathf.Clamp(m_tempo + value, 0, 200);
+        
+        // Update play velocity
+        
     }
 }

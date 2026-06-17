@@ -9922,15 +9922,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: f80e414d7e5219a4b9b3bee627d5aebf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4193
+      value: 7.79917
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: f80e414d7e5219a4b9b3bee627d5aebf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.819
+      value: 2.9750001
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: f80e414d7e5219a4b9b3bee627d5aebf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.711
+      value: -9.58435
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: f80e414d7e5219a4b9b3bee627d5aebf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9942,11 +9942,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: f80e414d7e5219a4b9b3bee627d5aebf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: f80e414d7e5219a4b9b3bee627d5aebf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: f80e414d7e5219a4b9b3bee627d5aebf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10097,9 +10097,9 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 34
   m_DistanceCalculationMode: 1
-  m_SelectMode: 0
+  m_SelectMode: 1
   m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
@@ -10158,13 +10158,13 @@ MonoBehaviour:
   m_ParentInteractableObject: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1

@@ -1,7 +1,11 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
+using UnityEngine.Rendering;
 
 public class BatonGestureTracker : MonoBehaviour
 {
@@ -9,20 +13,39 @@ public class BatonGestureTracker : MonoBehaviour
     [SerializeField] private int m_bufferSize = 10; // Number of frames to store
     [SerializeField] private float m_VelocityThreshold = 3f; // Minimum sensibility of the movement
     [SerializeField] private InputActionReference m_recordMovement;
+    [SerializeField] private int m_referenceFrequency;
+    [SerializeField] private float m_tempoModifier; // Positive, between 1 and 10
 
     private List<Vector3> _positionHistory = new List<Vector3>();
     private Vector3 _lastPosition;
 
-    private List<Vector3> _directionHistory = new List<Vector3>();
+    private List<Direction> _directionHistory = new List<Direction>();
     private Vector3 _lastDirection = Vector3.zero;
+
+    private float _transcurredTime;
+
+    public UnityEvent<float> changeTempo;
+    
+
+    private struct Direction
+    {
+        public Vector3 direction;
+        public float time;
+
+        public Direction(Vector3 _direction, float _time)
+        {
+            direction = _direction;
+            time = _time;
+        }
+    }
 
     private void Start()
     {
         _lastPosition = transform.position;
 
         m_recordMovement.action.started += (CallbackContext) => { _directionHistory.Clear(); };
-        m_recordMovement.action.canceled += (CallbackContext) => { foreach (var dir in _directionHistory) { Debug.Log(dir); } };
-
+        m_recordMovement.action.started += (CallbackContext) => { _transcurredTime = Time.time; };
+        m_recordMovement.action.canceled += InterpretDirectionHistory;
     }
 
     private void Update()
@@ -41,17 +64,16 @@ public class BatonGestureTracker : MonoBehaviour
         }
 
         // Analyze the direction if the movement is fast enough
-        if(velocity.magnitude > m_VelocityThreshold)
+        if (velocity.magnitude > m_VelocityThreshold)
         {
             Vector3 dominantDirection = InterpretDirection(velocity);
-            Debug.Log($"<color=yellow>[BATUTA]</color> Moviéndose hacia: <b>{dominantDirection}</b> | Velocidad: {velocity.magnitude:F2} m/s");
 
             if (m_recordMovement.action.IsPressed() && _lastDirection != Vector3.zero)
             {
-                if(_lastDirection.y == -dominantDirection.y && _lastDirection.y != 0)
+                if (_lastDirection.y == -dominantDirection.y && _lastDirection.y != 0)
                 {
-                    Debug.Log($"<color=yellow>[BATUTA]</color> Añado movimiento {dominantDirection} comparado con {_lastDirection}");
-                    _directionHistory.Add(dominantDirection);
+                    Direction dir = new Direction(dominantDirection, (Time.time - _transcurredTime));
+                    _directionHistory.Add(dir);
                 }
             }
 
@@ -79,5 +101,33 @@ public class BatonGestureTracker : MonoBehaviour
             return normalized.z > 0 ? Vector3.forward : Vector3.back;
         }
     }
+
+    private void InterpretDirectionHistory(InputAction.CallbackContext context)
+    {
+        if (_directionHistory.Count == 0)
+            return;
+
+        float delta = 0;
+        float lastTime = _directionHistory[0].time;
+        int movementsCount = 0;
+
+        for (int i = 0; i < _directionHistory.Count; i++)
+        {
+            delta = _directionHistory[i].time - lastTime;
+
+            if (delta < 0.8f)
+            {
+                movementsCount++;
+            }
+            
+            lastTime = _directionHistory[i].time;
+        }
+
+
+        int tempo = movementsCount - m_referenceFrequency;
+        float modifyAmount = tempo * m_tempoModifier;
+        changeTempo.Invoke(modifyAmount);
+    }
+
 
 }
