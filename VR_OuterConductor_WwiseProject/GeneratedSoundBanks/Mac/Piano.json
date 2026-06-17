@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AA998650-9587-42BD-A36E-8400D67A0B53}",
     "Language": "SFX",
-    "Hash": "{6A274341-6361-E1A9-F1E6-14F016F987FD}",
+    "Hash": "{1BE1ABF7-8560-C1EC-223C-106F9E2DD656}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Piano",
     "ShortName": "Piano",
     "Path": "Piano.bnk",
@@ -3763,9 +3763,9 @@
       "GUID": "{6B2A8AB1-1D3B-4647-BB4F-4056CC3FD820}"
      },
      {
-      "Id": "1027964044",
-      "Name": "InstrumentVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\InstrumentVolume",
+      "Id": "3174829335",
+      "Name": "InstrumentTempo",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\InstrumentTempo",
       "GUID": "{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}"
      }
     ],
@@ -4341,6 +4341,6 @@
     ]
    }
   ],
-  "FileHash": "{2F990C1F-339D-9284-C9AE-7016C987DDF9}"
+  "FileHash": "{77C9EF8B-D882-E0D2-7934-4C950B621EFD}"
  }
 }

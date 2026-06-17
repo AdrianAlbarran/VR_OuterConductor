@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{FBD33CD5-0C46-9F51-B7EF-36D18FADA6D8}",
+    "Hash": "{901BEE0D-9C41-CD85-0B4E-7DF7A2C05B7E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -50,12 +50,6 @@
       "GUID": "{6B2A8AB1-1D3B-4647-BB4F-4056CC3FD820}"
      },
      {
-      "Id": "1027964044",
-      "Name": "InstrumentVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\InstrumentVolume",
-      "GUID": "{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}"
-     },
-     {
       "Id": "1130429031",
       "Name": "FluteVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\instruments\\FluteVolume",
@@ -90,6 +84,12 @@
       "Name": "MasterVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
       "GUID": "{8D6632EC-B4EB-4E97-BA5B-A67E186436C4}"
+     },
+     {
+      "Id": "3174829335",
+      "Name": "InstrumentTempo",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\InstrumentTempo",
+      "GUID": "{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}"
      },
      {
       "Id": "3297833431",
@@ -670,6 +670,6 @@
     ]
    }
   ],
-  "FileHash": "{64F7A0A7-A424-41B5-C386-02F5C48D2C78}"
+  "FileHash": "{ECA58710-68D0-3B51-5013-B3710A7297F1}"
  }
 }

@@ -15039,29 +15039,29 @@
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
-									<RTPC Name="" ID="{910A7432-4BA4-4E72-BD80-ADFF099FB93A}" ShortID="901482978">
+									<RTPC Name="" ID="{83FB8ED1-1838-492B-A3DA-C9E04AF6050E}" ShortID="944035972">
 										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+												<ObjectRef Name="InstrumentTempo" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{ECB6AD3D-9361-4E45-8EDB-2AB6771C4C17}">
+													<Curve Name="" ID="{10229B58-60EA-4100-9AA5-AB1A46E80860}">
 														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
+															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-96</YPos>
+																<YPos>-1200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>0</YPos>
+																<YPos>1200</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -15108,29 +15108,29 @@
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
-									<RTPC Name="" ID="{C1CDBBB5-0887-477A-B850-2D2CE4B96BCF}" ShortID="375231623">
+									<RTPC Name="" ID="{32AFD288-690E-499E-A25E-BDE6DC02E37D}" ShortID="815656757">
 										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+												<ObjectRef Name="InstrumentTempo" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{799C7CEB-C293-47CA-87EE-4D2B999B89A3}">
+													<Curve Name="" ID="{321A95FC-F215-431F-812C-F224FB483BC7}">
 														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
+															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-96</YPos>
+																<YPos>-1200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>0</YPos>
+																<YPos>1200</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -15177,29 +15177,29 @@
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
-									<RTPC Name="" ID="{960EE80F-2BDC-4EE6-957B-86FFE257287C}" ShortID="408973912">
+									<RTPC Name="" ID="{A66AB9CA-95B0-4A2A-B63E-5E6E9C9F8D55}" ShortID="215325857">
 										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+												<ObjectRef Name="InstrumentTempo" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{0AE09E9E-ACC2-4FC9-8327-825CBF1738AB}">
+													<Curve Name="" ID="{FB0D1B8F-3748-4CA4-85AD-39932060F913}">
 														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
+															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-96</YPos>
+																<YPos>-1200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>0</YPos>
+																<YPos>1200</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -15246,29 +15246,29 @@
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
-									<RTPC Name="" ID="{675B1A0F-E9E9-4373-8A01-6934D9E9577D}" ShortID="264907731">
+									<RTPC Name="" ID="{6DBF8FCE-D031-44E4-A456-B9BFCD4F1325}" ShortID="712954383">
 										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+												<ObjectRef Name="InstrumentTempo" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{2F273650-D0E7-4855-A2BE-0494169A6C02}">
+													<Curve Name="" ID="{632AEF73-D0AF-4375-8170-F4AC78403812}">
 														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
+															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-96</YPos>
+																<YPos>-1200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>0</YPos>
+																<YPos>1200</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -15315,29 +15315,29 @@
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
-									<RTPC Name="" ID="{25F5D6BF-F52E-4337-A196-0089653B3098}" ShortID="393146142">
+									<RTPC Name="" ID="{9941AEFC-A58A-4FB5-AD73-3F1630F8D58B}" ShortID="10604025">
 										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+												<ObjectRef Name="InstrumentTempo" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{3915184A-106D-47F4-99A0-58173697FC1D}">
+													<Curve Name="" ID="{5B5DA56F-B776-4B2D-B815-916E9CDF47D9}">
 														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
+															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-96</YPos>
+																<YPos>-1200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>0</YPos>
+																<YPos>1200</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -15384,29 +15384,29 @@
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
-									<RTPC Name="" ID="{84DA5FFD-6D4A-4925-981E-34D1A1D4DBA4}" ShortID="446305772">
+									<RTPC Name="" ID="{81B5BD2F-6DC9-4F1A-B945-ADCF2343177A}" ShortID="946331575">
 										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+												<ObjectRef Name="InstrumentTempo" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{D08E0A55-45E3-45DF-A290-49417B3656AF}">
+													<Curve Name="" ID="{060FDEF2-FBC4-400A-BC08-4E9466EB4829}">
 														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
+															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-96</YPos>
+																<YPos>-1200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>200</XPos>
-																<YPos>0</YPos>
+																<YPos>1200</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
