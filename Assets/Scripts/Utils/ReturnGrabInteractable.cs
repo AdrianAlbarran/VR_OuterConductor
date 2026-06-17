@@ -10,5 +10,7 @@ public class ReturnGrabInteractable : MonoBehaviour
     public void InstrumentTpToInteractor()
     {
         m_grabInteractable.transform.position = m_socketInteractor.transform.position;
+        m_grabInteractable.transform.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        m_grabInteractable.transform.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
     }
 }

@@ -85,7 +85,7 @@ public class PianoKey : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (!other.GetComponentInChildren<XRBaseInteractor>()) return;
+        if (!other.GetComponentInChildren<XRBaseInteractor>() && other.transform.tag != "TrackedHand") return;
 
         touchCount++;
         if (touchCount == 1)
@@ -108,7 +108,7 @@ public class PianoKey : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (!other.GetComponentInChildren<XRBaseInteractor>()) return;
+        if (!other.GetComponentInChildren<XRBaseInteractor>() && other.transform.tag != "TrackedHand") return;
 
         touchCount--;
         if (touchCount <= 0)

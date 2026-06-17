@@ -24,6 +24,9 @@ public class BenchSit : MonoBehaviour
     [SerializeField] private Renderer[] chairRenderers;
     [SerializeField] private Material highlightMaterial;
 
+    [Header("HandsTracking")]
+    [SerializeField] private GameObject handsFather;
+
     private bool isSeated = false;
     private Vector3 standPosition;
     private Quaternion standRotation;
@@ -107,6 +110,9 @@ public class BenchSit : MonoBehaviour
 
         if (locomotion != null) locomotion.SetActive(false);
 
+        // Enable hands tracking
+        handsFather.SetActive(true);
+
         isSeated = true;
         UpdateUIText();
     }
@@ -119,6 +125,9 @@ public class BenchSit : MonoBehaviour
         xrOrigin.rotation = standRotation;
 
         if (locomotion != null) locomotion.SetActive(true);
+
+        // Disable hands tracking
+        handsFather.SetActive(false);
 
         isSeated = false;
         UpdateUIText();

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Button
+  - TrackedHand
   layers:
   - Default
   - TransparentFX
@@ -12,8 +13,8 @@ TagManager:
   - Button
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Instrument
   - 
   - 
   - 
