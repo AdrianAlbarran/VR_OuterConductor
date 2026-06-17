@@ -119,6 +119,7 @@ Switch	ID	Name	Switch Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	700021219	KeyPressure			\Default Work Unit\KeyPressure	
+	1027964044	InstrumentVolume			\Default Work Unit\InstrumentVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9662	Ds2_v1	.cache\56\{56421F68-0BDB-F7F0-F689-2978CBAAC17B}.wem		\Containers\Default Work Unit\Piano\Piano_Body\Piano_Ds2\Ds2_v1		254321

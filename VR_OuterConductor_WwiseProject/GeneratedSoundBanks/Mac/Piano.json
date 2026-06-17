@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AA998650-9587-42BD-A36E-8400D67A0B53}",
     "Language": "SFX",
-    "Hash": "{B247435D-64E8-D067-E649-2AFD3F6C0073}",
+    "Hash": "{6A274341-6361-E1A9-F1E6-14F016F987FD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Piano",
     "ShortName": "Piano",
     "Path": "Piano.bnk",
@@ -3761,6 +3761,12 @@
       "Name": "KeyPressure",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\KeyPressure",
       "GUID": "{6B2A8AB1-1D3B-4647-BB4F-4056CC3FD820}"
+     },
+     {
+      "Id": "1027964044",
+      "Name": "InstrumentVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\InstrumentVolume",
+      "GUID": "{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}"
      }
     ],
     "SwitchGroups": [
@@ -4335,6 +4341,6 @@
     ]
    }
   ],
-  "FileHash": "{0D4983FE-BC86-96ED-F65B-A544D1F0FBFD}"
+  "FileHash": "{2F990C1F-339D-9284-C9AE-7016C987DDF9}"
  }
 }

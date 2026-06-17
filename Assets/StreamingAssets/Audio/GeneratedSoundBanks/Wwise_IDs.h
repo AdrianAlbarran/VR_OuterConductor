@@ -154,6 +154,7 @@ namespace AK
         static const AkUniqueID DRUMSVOLUME = 2301001150U;
         static const AkUniqueID FLUTEVOLUME = 1130429031U;
         static const AkUniqueID HARMONICAVOLUME = 3297833431U;
+        static const AkUniqueID INSTRUMENTVOLUME = 1027964044U;
         static const AkUniqueID KEYPRESSURE = 700021219U;
         static const AkUniqueID MASTERVOLUME = 2918011349U;
         static const AkUniqueID PIANOVOLUME = 1821095354U;

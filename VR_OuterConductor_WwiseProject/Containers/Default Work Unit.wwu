@@ -15037,6 +15037,41 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{910A7432-4BA4-4E72-BD80-ADFF099FB93A}" ShortID="901482978">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{ECB6AD3D-9361-4E45-8EDB-2AB6771C4C17}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="flute - còpia" ID="{26E28E67-1714-4595-8231-3E749ABF371C}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -15071,6 +15106,41 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{C1CDBBB5-0887-477A-B850-2D2CE4B96BCF}" ShortID="375231623">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{799C7CEB-C293-47CA-87EE-4D2B999B89A3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="banjo - còpia" ID="{5665B952-6303-416D-9B3E-8F6A1EA9FCB5}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -15105,6 +15175,41 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{960EE80F-2BDC-4EE6-957B-86FFE257287C}" ShortID="408973912">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{0AE09E9E-ACC2-4FC9-8327-825CBF1738AB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="drums - còpia" ID="{3BAAEE37-A79D-4E15-9B33-D851040250BF}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -15139,6 +15244,41 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{675B1A0F-E9E9-4373-8A01-6934D9E9577D}" ShortID="264907731">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{2F273650-D0E7-4855-A2BE-0494169A6C02}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="harmonica - còpia" ID="{A7566DE5-858F-48A9-BA6D-CD0E2C6BABBD}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -15173,6 +15313,41 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{25F5D6BF-F52E-4337-A196-0089653B3098}" ShortID="393146142">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{3915184A-106D-47F4-99A0-58173697FC1D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="piano - còpia" ID="{85C02C30-6DAC-450C-8D39-4A62221DC828}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -15207,6 +15382,41 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{84DA5FFD-6D4A-4925-981E-34D1A1D4DBA4}" ShortID="446305772">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="InstrumentVolume" ID="{B2E2B0FA-607A-4F79-8D45-9B0197A4FBA1}" WorkUnitID="{B8A214D3-CDF3-46FA-9253-62DCBB5FB3C9}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{D08E0A55-45E3-45DF-A290-49417B3656AF}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="whistle - còpia" ID="{FC1DDD92-6C10-4CF6-A8F8-5A3C7F702AB6}" Platform="Linked"/>
 							</ActiveSourceList>
